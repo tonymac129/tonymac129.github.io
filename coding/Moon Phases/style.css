@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: black;
+}
+
+#Moon {
+  width: 35%;
+  margin-inline: 32.5%;
+}
+
+button {
+  font-size: 25px;
+  width: 40%;
+  margin-inline: 5%;
+  margin-block: 5px;
+  padding-block: 10px;
+  border-radius: 30px;
+  border: none;
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+  transition: transform 0.5s;
+  box-shadow: none;
+}
+
+button:hover {
+  transform: scale(1.08);
+}
+
+button:focus {
+  background-color: rgb(201, 201, 201);
+}
+
+input {
+  width: 50%;
+}
+
+span {
+  position: absolute;
+  bottom: 50px;
+  right: 40px;
+  color: white;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 30%;
+  margin-inline: 35%;
+}
