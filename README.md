@@ -10,3 +10,6 @@
 - # v2.0
   ### 11/11/23
   I moved the portfolio as my personal site instead being part of the MacWeb company. I reorganized the files in the portfolio, with brand new and updated projects and contents, with a revamped and refreshed UI/UX.
+- # v2.1
+  ### 12/22/2023
+  Uploaded some more projects and coding files, also update some visual UI and UX experience.
