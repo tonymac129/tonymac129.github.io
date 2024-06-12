@@ -4,53 +4,81 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home | TonyMac129</title>
-    <link rel="icon" type="image/x-icon" href="logo.png" />
+    <link rel="icon" type="image/x-icon" href="/media/logo.png" />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <nav class="nav">
-      <a href="/" class="logo2">
-        <img src="/portfolio-logo.png" alt="MacWeb Portfolio Logo" />
+      <a href="/" class="logo">
+        <img src="/media/nav-logo.png" alt="TonyMac129 Portfolio Logo" />
       </a>
+      <a href="/skills/" class="nav-link">Skills</a>
       <a href="/coding/" class="nav-link">Coding</a>
+      <a href="/projects/" class="nav-link">Projects</a>
       <a href="/redesigns/" class="nav-link">Redesigns</a>
-      <a href="/personal.html" class="nav-link">Personal</a>
-      <a href="/school.html" class="nav-link">School</a>
       <a href="/about.html" class="nav-link">About</a>
-      <input type="text" class="nav-search" placeholder="Search" />
+      <div class="dropdown">
+        <button class="drop-title">
+          Tabs
+          <div class="drop-links">
+            <a href="/skills/" class="drop-link">Skills</a>
+            <a href="/coding/" class="drop-link">Coding</a>
+            <a href="/projects/" class="drop-link">Projects</a>
+            <a href="/redesigns/" class="drop-link">Redesigns</a>
+            <a href="/about.html" class="drop-link">About</a>
+          </div>
+        </button>
+      </div>
     </nav>
-    <div class="big">
-      <h1>Welcome to TonyMac129</h1>
-    </div>
-    <div class="welcome">
-      <div class="welcomep">
-        <p>
-          Hey there👋<br />
-          I'm TonyMac129, and welcome to my portfolio!<br />
-          I'm a front-end web developer💻 and a math learner2️⃣<br />
-          I'm the founder of
-          <a href="https://mac-web.github.io" target="_blank">MacWeb</a>.<br />
-          TonyMac129 is where I put my projects and other interesting fun stuff
-          for you to explore!<br />
-          <span class="btn-wrap">
-            <a href="coding/"><button>Coding Stuff</button></a>
-            <a href="about.html"><button>More about me</button></a>
-          </span>
-        </p>
+    <div class="main">
+      <div class="header">
+        <h1 class="head">Welcome to TonyMac129</h1>
       </div>
-      <div class="welcomeimg">
-        <img src="13391.jpg" alt="Me" />
+      <div class="content">
+        <div class="description">
+          <p class="intro">
+            Hey there, I'm TonyMac129, and welcome to my portfolio👋! <br />
+            You can describe me as 3 things: a goofy middle schooler 🚸, a
+            front-end web developer 🧑‍💻, and a Brawl Stars lover ⭐.<br />
+            Here, you can find some interesting projects that I made 🔨.<br />
+            By the way, I'm also the founder and CEO of MacWeb 💻.
+          </p>
+          <img src="/media/logo.png" class="intro-img" />
+        </div>
       </div>
     </div>
-    <footer>
+    <footer class="footer">
       <span>© 2024 TonyMac129</span>
-      <br />
-      <br />
       <span>
-        This site was built entirely by me 🧑‍💻 with ❤️, 🧠, 🕒, and
+        This site was built by me 🧑‍💻 with ❤️, 🧠, 🕒, and
         <a href="https://code.visualstudio.com/" target="_blank">VS Code</a>
         💻
       </span>
+      <div class="socials">
+        <a href="mailto:tonyforself@gmail.com" class="social">
+          <img src="/media/email.svg" alt="Email" />
+        </a>
+        <a href="https://github.com/tonymac129" target="_blank" class="social">
+          <img src="/media/github.svg" alt="GitHub" />
+        </a>
+        <a
+          href="https://www.youtube.com/@tonymac129"
+          target="_blank"
+          class="social"
+        >
+          <img src="/media/youtube.svg" alt="YouTube" />
+        </a>
+        <a href="https://twitter.com/TonyMac129" target="_blank" class="social">
+          <img src="/media/x.svg" alt="X" />
+        </a>
+        <a
+          href="https://www.reddit.com/user/TonyMac129/"
+          target="_blank"
+          class="social"
+        >
+          <img src="/media/reddit.svg" alt="Reddit" />
+        </a>
+      </div>
     </footer>
   </body>
 </html>

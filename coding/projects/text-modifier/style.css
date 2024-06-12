@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: rgb(40, 40, 40);
+}
+
+.wrap {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.output {
+  background-color: rgb(30, 30, 30);
+  width: 40%;
+  margin-top: 50px;
+  border-radius: 10px 10px 0px 0px;
+  padding-block: 15px;
+  padding-inline: 30px;
+  color: white;
+  font-size: 18px;
+  line-height: 28.8px;
+  transition: height 0.3s ease;
+}
+
+.btn {
+  width: 40%;
+  background-color: rgb(30, 30, 30);
+  padding-block: 15px;
+  border-radius: 0px 0px 10px 10px;
+  border-top: 2px solid gray;
+  cursor: pointer;
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  transition: background-color 0.2s ease;
+}
+
+.btn:hover {
+  background-color: rgb(20, 20, 20);
+}
+
+.btn:active {
+  background-color: rgb(10, 10, 10);
+}
+
+.main {
+  display: flex;
+  width: 40%;
+}
+
+.text {
+  width: 90%;
+  background-color: rgb(30, 30, 30);
+  font-size: 18px;
+  color: white;
+  border: none;
+  outline: none;
+  padding-block: 13px;
+  padding-inline: 30px;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.text::placeholder {
+  font-style: italic;
+}
+
+.go {
+  width: 10%;
+  background-color: rgb(30, 30, 30);
+  font-size: 18px;
+  color: white;
+  border: none;
+  outline: none;
+  padding-block: 13px;
+  border-radius: 0px 10px 10px 0px;
+  cursor: pointer;
+  border-left: 2px solid gray;
+  transition: background-color 0.2s ease;
+}
+
+.go:hover {
+  background-color: rgb(20, 20, 20);
+}
+
+.go:active {
+  background-color: rgb(10, 10, 10);
+}
