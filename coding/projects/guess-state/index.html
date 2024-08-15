@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guess the State: Blind</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="image.png" type="image/x-icon">
+    <script src="app.js"></script>
+  </head>
+  <body>
+    <h1 class="title">
+      Guess the State
+      <div class="slap">Blind</div>
+    </h1>
+    <form class="inputbar" id="input">
+      <input
+        type="text"
+        id="inputbar"
+        autocomplete="off"
+        class="input"
+        placeholder="Enter State Here"
+      />
+      <button class="inputbtn" type="submit">Submit</button>
+    </form>
+    <div class="below">
+      <div class="countdown">
+        <span id="minute">10</span>:<span id="second">00</span>
+      </div>
+      <div class="stats">States guessed: <span id="current">0</span>/50</div>
+      <button id="giveup">Give Up</button>
+    </div>
+    <div class="alert"></div>
+    <div class="guessed"></div>
+    <img src="info.svg" class="info" />
+    <div class="modalback">
+      <div class="modal">
+        <img src="close.svg" class="close" />
+        <h2 class="modal-title">About Guess the State: Blind</h2>
+        Alright, let's take on the challenge! No maps, no hints, nothing—just
+        memory and speed.<br /><br />
+        It's easy: guess all 50 American states in under 10 minutes, and beat
+        the stereotype that Americans are bad at geography ... or are you just
+        one of them after all?<br /><br />
+        Stop reading, and start guessing!
+        <p class="credits">
+          Game developer: TonyMac129<br />
+          Game designer: TonyMac129<br />
+          Release date: 8/13/2024<br />
+          © 2024 TonyMac129
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

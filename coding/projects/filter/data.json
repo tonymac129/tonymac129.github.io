@@ -1,0 +1,62 @@
+{
+  "object0": {
+    "name": "🤡",
+    "color": "red",
+    "time": 69,
+    "featured": true
+  },
+  "object1": {
+    "name": "123456",
+    "color": "blue",
+    "time": 58,
+    "featured": false
+  },
+  "object2": {
+    "name": "945",
+    "color": "green",
+    "time": 72,
+    "featured": false
+  },
+  "object3": {
+    "name": "hi",
+    "color": "red",
+    "time": 39,
+    "featured": false
+  },
+  "object4": {
+    "name": "random",
+    "color": "blue",
+    "time": 12,
+    "featured": true
+  },
+  "object5": {
+    "name": "toilet",
+    "color": "green",
+    "time": 96,
+    "featured": true
+  },
+  "object6": {
+    "name": "skibidi",
+    "color": "red",
+    "time": 49,
+    "featured": true
+  },
+  "object7": {
+    "name": "basket",
+    "color": "blue",
+    "time": 66,
+    "featured": false
+  },
+  "object8": {
+    "name": "laptop",
+    "color": "green",
+    "time": 18,
+    "featured": false
+  },
+  "object9": {
+    "name": "chicken",
+    "color": "green",
+    "time": 38,
+    "featured": true
+  }
+}

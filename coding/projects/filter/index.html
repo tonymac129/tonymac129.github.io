@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Filter</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="filters">
+      <label class="label">Sort By</label>
+      <select name="sort" id="sort">
+        <option value="name">Name</option>
+        <option value="time">Time</option>
+        <option value="color">Color</option>
+      </select>
+      <label class="label">Filter By</label>
+      <select name="filter" id="filter">
+        <option value="all">All</option>
+        <option value="red">Red</option>
+        <option value="blue">Blue</option>
+        <option value="green">Green</option>
+        <option value="featured">Featured</option>
+      </select>
+      <label class="label">Direction</label>
+      <select name="direction" id="direction">
+        <option value="ascend" selected>Ascending</option>
+        <option value="decend">Decending</option>
+      </select>
+    </div>
+    <div id="container">
+      <div class="block" style="background-color: brown">🤡</div>
+      <div class="block" style="background-color: darkblue">123456</div>
+      <div class="block" style="background-color: darkgreen">945</div>
+      <div class="block" style="background-color: brown">hi</div>
+      <div class="block" style="background-color: darkblue">random</div>
+      <div class="block" style="background-color: darkgreen">toilet</div>
+      <div class="block" style="background-color: brown">skibidi</div>
+      <div class="block" style="background-color: darkblue">basket</div>
+      <div class="block" style="background-color: darkgreen">laptop</div>
+      <div class="block" style="background-color: darkgreen">chicken</div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
