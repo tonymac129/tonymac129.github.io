@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atbash Cipher Tool</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrap">
+      <h1 class="title">Atbash Cipher Tool</h1>
+      <p class="des">
+        The Atbash Cipher encrypts text by turning each letter in the message
+        into the opposite letter in the alphabet, so A becomes Z, B becomes Y,
+        and so on. Because it's the opposite of the alphabet, both encrypting
+        and decrypting work the same way.
+      </p>
+      <form id="form" class="form">
+        <input
+          type="text"
+          id="input"
+          placeholder="Enter your message here"
+          autocomplete="off"
+          class="input"
+        />
+        <button class="submit" type="submit">Encrypt / Decrypt</button>
+      </form>
+      <p class="output none">
+        <span id="output"></span>
+        <span class="copy" id="copy">Copy</span>
+      </p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
