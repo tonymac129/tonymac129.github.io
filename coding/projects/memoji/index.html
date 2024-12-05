@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Memoji</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="modal-back" id="startmodal">
+      <div class="modal">
+        <h2>Welcome to Memoji!</h2>
+        <p>
+          Memorize the cards and match the same emojis! Start playing this
+          simple yet addicting game and test out your memory with 3 difficulty
+          levels!
+        </p>
+        <button id="start">Start</button>
+      </div>
+    </div>
+    <div class="modal-back" id="modal">
+      <div class="modal">
+        <h2>You beat the level!</h2>
+        <p>
+          In <span id="modal-time">0:00</span> with
+          <span id="modal-move">0</span> moves!
+        </p>
+        <button id="replay">Next Level</button>
+      </div>
+    </div>
+    <h1 class="title">Memoji</h1>
+    <p>
+      Moves:
+      <span id="moves">0</span>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Time:
+      <span id="minute">0</span>:<span id="second">00</span>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Difficulty:
+      <span id="difficulty">Easy</span>
+    </p>
+    <div class="cards"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
