@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Password Manager</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="/media/logo.png" type="image/x-icon">
+  </head>
+  <body>
+    <div id="clear">Clear data</div>
+    <div class="copy">
+      &copy; 2025
+      <a href="https://tonymac129.github.io" target="_blank" class="copy-link">TonyMac129</a>
+    </div>
+    <div class="wrap">
+      <h1 class="title">Password Manager</h1>
+      <form id="form" class="form">
+        <input type="text" class="input" placeholder="Site URL" id="site" />
+        <div class="credentials">
+          <input type="text" class="input" placeholder="Username" id="user" />
+          <input type="text" class="input" placeholder="Password" id="password" />
+        </div>
+        <input type="text" class="input" placeholder="Note" id="note" />
+        <button type="submit" class="action">Add Password</button>
+      </form>
+      <input type="text" class="search" placeholder="Search passwords by site name" id="search" />
+      <div class="list" id="list">
+        <div id="message"></div>
+      </div>
+      <div id="warning">No credentials added right now. Input your credentials above to start using the app!</div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
