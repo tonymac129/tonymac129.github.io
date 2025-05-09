@@ -1,0 +1,160 @@
+:root {
+  --bg-color:#ebe2c9;
+  --text-color: black;
+}
+
+.dark {
+  --bg-color: black;
+  --text-color: #ebe2c9;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Caveat Brush', cursive;
+}
+
+body, .lv1 {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  gap: 15px;
+  padding-block: 30px;
+  background-color: var(--bg-color);
+  text-align: center;
+  transition: background-color 0.3s ease;
+  z-index: 10;
+}
+
+.title {
+  font-family: 'Bungee Spice', sans-serif;
+  font-size: 50px;
+}
+
+.description {
+  font-family: 'Caveat Brush', cursive;
+  font-size: 20px;
+  width: 50%;
+  color: var(--text-color);
+}
+
+.bar {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 5px;
+  margin-top: 10px;
+}
+
+.bored-label {
+  font-size: 18px;
+  color: var(--text-color);
+}
+
+.boredometer {
+  width: 100%;
+  background-color: #bda970;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.progress {
+  background-color: #d73e00;
+  width: 100%;
+  border-radius: 10px;
+  transition: width 0.15s linear;
+}
+
+.btns {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+
+.btn {
+  font-size: 25px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 3px solid #cb1000;
+  cursor: pointer;
+  background-color: #d73e00;
+  color: white;
+  margin-top: 50px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  font-family: 'Caveat Brush', cursive;
+}
+
+.btn:hover {
+  transform: rotate(180deg) scale(1.5);
+  box-shadow: 0px 0px 10px #cb1000;
+}
+
+.btn:active {
+  transform: rotate(90deg) scale(1.2);
+  box-shadow: 0px 0px 5px #cb1000;
+}
+
+.btn:hover .btn-text {
+  transform: rotate(180deg);
+}
+
+.none {
+  display: none;
+}
+
+.character {
+  position: absolute;
+  height: 100px;
+  filter: drop-shadow(0px 0px 10px gray);
+  cursor: pointer;
+}
+
+#mickey {
+  left: 30px;
+  top: 200px;
+  transform: rotate(20deg);
+}
+
+#eric {
+  right: 30px;
+  bottom: 200px;
+  transform: rotate(-85deg);
+}
+
+#mike {
+  right: 350px;
+  bottom: 60px;
+}
+
+#bill {
+  left: 200px;
+  bottom: 70px;
+  transform: scale(2)
+}
+
+#herobrine {
+  right: 20px;
+  top: 20px;
+  transform: rotate(-5deg);
+}
+
+.lightning-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  height: 0vh;
+}
+
+.lightning-container img {
+  height: 100vh;
+  width: 100vh;
+}

@@ -1,0 +1,270 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(20, 20, 20);
+}
+
+.nav {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: calc(50% - 500px);
+    border-bottom: 1px solid rgb(50, 50, 50);
+}
+
+.logo {
+    color: rgb(20, 170, 140);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Cal Sans", sans-serif;
+}
+
+.nav-right {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-link {
+    color: rgb(200, 200, 200);
+    transition: color 0.3s ease;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: rgb(20, 170, 140);
+}
+
+.content {
+    height: calc(100vh - 50px);
+    overflow: auto;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 1000px;
+    padding-block: 80px;
+    align-items: center;
+    box-sizing: content-box;
+    padding-inline: calc(50% - 500px);
+}
+
+.hero-title {
+    font-size: 50px;
+    text-align: center;
+    width: 70%;
+    background-image: linear-gradient(to left, rgb(18, 203, 150), rgb(20, 170, 140), rgb(13, 110, 175));
+    color: transparent;
+    background-clip: text;
+    font-family: "Cal Sans", sans-serif;
+    letter-spacing: 2px;
+}
+
+.hero-subtitle {
+    color: rgb(200, 200, 200);
+    font-size: 18px;
+    text-align: center;
+}
+
+.hero-btns {
+    display: flex;
+    gap: 20px;
+}
+
+.hero-btn {
+    background-color: rgb(50, 50, 50);
+    color: rgb(200, 200, 200);
+    font-size: 18px;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hero-btn:hover {
+    background-color: rgb(65, 65, 65);
+}
+
+.primary {
+    background-color: rgb(20, 170, 140);
+    color: rgb(20, 20, 20);
+    padding-inline: 20px;
+    font-weight: bold;
+}
+
+.primary:hover {
+    background-color: rgb(23, 202, 166);
+    box-shadow: 0px 0px 15px rgb(24, 96, 81);
+}
+
+.sponsor {
+    background-color: rgb(30, 30, 30);
+    width: 100%;
+    padding-block: 20px;
+    overflow: hidden;
+}
+
+.sponsor-title {
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.carousels {
+    display: flex;
+}
+
+.sponsors {
+    display: flex;
+    gap: 50px;
+    padding: 30px;
+    animation: slide 30s infinite linear;
+}
+
+.sponsor-img {
+    height: 80px;
+    cursor: pointer;
+    transition: filter 0.3s ease, transform .3s ease;
+}
+
+.sponsor-img:hover {
+    filter: drop-shadow(0px 0px 10px rgb(24, 96, 81));
+    transform: scale(1.05);
+}
+
+.carousels:hover .sponsors {
+    animation-play-state: paused;
+}
+
+.cards {
+    display: flex;
+    gap: 25px;
+    padding-inline: 100px;
+    padding-bottom: 80px;
+}
+
+.card {
+    background-color: rgb(30, 30, 30);
+    border-radius: 5px;
+    padding: 20px 15px;
+    display: flex;
+    gap: 15px;
+    flex: 1;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-content {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.card-img {
+    height: 65px;
+    
+}
+
+.card:hover {
+    transform: scale(1.02);
+    box-shadow: 0px 0px 5px rgb(24, 96, 81);
+}
+
+.card p {
+    color: rgb(200, 200, 200);
+}
+
+.card-title {
+    color: white;
+    font-size: 20px;
+}
+
+.footer {
+    background-color: black;
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    align-items: start;
+    padding-block: 30px;
+    padding-inline: 100px;
+}
+
+.copy {
+    flex: 1;
+    color: rgb(150, 150, 150);
+    font-size: 18px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    align-self: center;
+}
+
+.footer-links {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: rgb(150, 150, 150);
+    font-size: 16px;
+}
+
+.footer-links-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
+
+.footer-link {
+    color: rgb(150, 150, 150);
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(200, 200, 200);
+    border-radius: 10px;
+    border: 3.5px solid rgb(20, 20, 20);
+}
+
+@media (max-width: 900px) {
+    .hero {
+        width: 100%;
+        padding-inline: 0px;
+        box-sizing: border-box;
+    }
+
+    .hero-title {
+        width: 100%;
+    }
+
+    .nav {
+        padding-inline: 10px;
+    }
+}
+
+@keyframes slide {
+    from {
+        transform: translate(0%);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
