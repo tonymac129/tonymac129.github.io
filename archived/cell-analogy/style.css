@@ -1,0 +1,180 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: rgb(65, 65, 65);
+  scroll-behavior: smooth;
+}
+
+.nav {
+  display: flex;
+  position: sticky;
+  top: 0;
+  background-color: black;
+  justify-content: center;
+}
+
+.nav a {
+  padding-inline: 20px;
+  font-size: 20px;
+  text-decoration: none;
+  padding-block: 12px;
+  color: white;
+  font-weight: bold;
+  border-bottom: 2px solid black;
+  transition: border-bottom 0.3s ease;
+}
+
+.nav a:hover {
+  border-bottom: 2px solid gold;
+}
+
+.header {
+  padding-block: 25px;
+  text-align: center;
+  padding-bottom: 75px;
+}
+
+.header h1 {
+  color: white;
+  font-size: 55px;
+  font-family: Agbalumo;
+}
+
+.header p {
+  color: white;
+  font-size: 25px;
+  margin-top: 25px;
+}
+
+.section {
+  display: flex;
+  flex-direction: center;
+  align-items: center;
+  padding-block: 50px;
+  scroll-behavior: smooth;
+}
+
+.section img {
+  width: 24.5%;
+  margin-inline: 3%;
+  border-radius: 15px;
+}
+
+.section1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-block: 50px;
+  scroll-behavior: smooth;
+}
+
+.section1 img {
+  width: 30%;
+  border-radius: 20px;
+}
+
+figcaption {
+  font-size: 18px;
+  color: white;
+  padding-top: 10px;
+}
+
+.article {
+  width: 70%;
+  margin-inline: 15%;
+}
+
+.article p {
+  color: white;
+  width: 80%;
+  margin-inline: 10%;
+  font-size: 20px;
+  line-height: 40px;
+  padding-block: 45px;
+}
+
+.image-container {
+  width: 70%;
+  margin-inline: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container img {
+  height: 25vh;
+  width: auto;
+}
+
+.text {
+  width: 39%;
+  color: white;
+  font-size: 20px;
+  line-height: 35px;
+  display: flex;
+  padding-inline: 1%;
+  flex-direction: column;
+}
+
+.text h1 {
+  font-size: 30px;
+  text-align: center;
+  padding-block: 20px;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  margin-block: 5px;
+  padding-block: 10px;
+  padding-inline: 15px;
+  width: 90px;
+  text-align: center;
+  font-size: 15px;
+  color: white;
+  background-color: black;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.move {
+  display: inline-block;
+  transition: margin-left 0.3s ease;
+  margin-left: 0px;
+}
+
+button:hover .move {
+  margin-left: 10px;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 17px;
+  padding-block: 30px;
+}
+
+::-webkit-scrollbar {
+  width: 0.7vw;
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: white;
+  width: 0.3vw;
+  border-radius: 3vw;
+  border: 0.2vw solid rgb(65, 65, 65);
+  transition: background-color 0.2s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  border: 0.1vw solid rgb(65, 65, 65);
+}

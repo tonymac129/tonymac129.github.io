@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog | WeatherBoard</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="/media/logo.png" type="image/x-icon" />
+    <script
+      async
+      src="https://fundingchoicesmessages.google.com/i/pub-5598129470490010?ers=1"
+      nonce="uI1Scn9GtkWPxq4o9f_I9w"
+    ></script>
+    <script nonce="uI1Scn9GtkWPxq4o9f_I9w">
+      (function () {
+        function signalGooglefcPresent() {
+          if (!window.frames["googlefcPresent"]) {
+            if (document.body) {
+              const iframe = document.createElement("iframe");
+              iframe.style =
+                "width: 0; height: 0; border: none; z-index: -1000; left: -1000px; top: -1000px;";
+              iframe.style.display = "none";
+              iframe.name = "googlefcPresent";
+              document.body.appendChild(iframe);
+            } else {
+              setTimeout(signalGooglefcPresent, 0);
+            }
+          }
+        }
+        signalGooglefcPresent();
+      })();
+    </script>
+  </head>
+  <body>
+    <nav class="nav">
+      <a href="/" class="logo" id="logo">
+        <img src="/media/dark_nav.png" alt="WeatherBoard" />
+      </a>
+      <a href="/pinned.html" class="nav-link">Pinned</a>
+      <a href="/blog/" class="nav-link">Blog</a>
+      <div class="btns">
+        <button class="settings" id="mode">
+          <img src="/media/mode.svg" />
+        </button>
+        <button class="settings" id="settings">
+          <img src="/media/settings.svg" alt="Settings" />
+        </button>
+      </div>
+    </nav>
+    <div class="wrap">
+      <h1>WeatherBoard Blog</h1>
+      <div class="cards">
+        <a href="articles/updates.html" class="card">
+          <img src="/media/updates.jpg" alt="Updates" class="thumb" />
+          <h2 class="title">WeatherBoard Update Log</h2>
+          <p class="des">Check out our product updates, changes, and more.</p>
+        </a>
+      </div>
+    </div>
+    <footer class="footer">
+      <p class="disclaim">&copy; 2024 WeatherBoard. All Rights Reserved.</p>
+      <div class="foot-links">
+        <a
+          href="https://github.com/Weather-Board/weather-board.github.io"
+          class="foot-link"
+          target="_blank"
+        >
+          <img src="/media/github.svg" alt="GitHub" />
+        </a>
+        <a
+          href="https://discord.gg/wC9wAVZ3SJ"
+          class="foot-link"
+          target="_blank"
+        >
+          <img src="/media/discord.svg" alt="Discord" />
+        </a>
+        <a
+          href="mailto:tonyforself@gmail.com"
+          class="foot-link"
+          target="_blank"
+        >
+          <img src="/media/email.svg" alt="Email" />
+        </a>
+        <a
+          href="https://forms.gle/Lhza3aoL5Qyaotux9"
+          class="foot-link"
+          target="_blank"
+        >
+          <img src="/media/feedback.svg" alt="Feedback" />
+        </a>
+      </div>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,50 @@
+* {
+  margin:0;
+  padding:0;
+  font-family: "helvetica", serif;
+}
+
+.title {
+  background-color: #fefebe;
+  color:black;
+  text-align:center;
+  padding:80px;
+  height: 300px;
+}
+
+.title h1 {
+  font-size:80px;
+}
+
+.title h2 {
+  font-size:60px;
+}
+
+
+.text {
+  float:left;
+  padding:60px;
+  font-size:20px;
+  opacity:0;
+  width:30%;
+  transform: translateY(100px);
+  transition: 0.5s ease;
+  line-height: 170%;
+}
+
+.text h3 {
+  text-align:center;
+}
+
+.effect {
+  opacity: 1;
+  transform: translateY(0px);
+}
+
+
+
+.picture {
+  width:400px;
+  float:right;
+  padding:30px;
+}

@@ -1,0 +1,203 @@
+:root {
+  --background-color: rgb(30, 20, 0);
+  --accent-color: rgb(170, 110, 0);
+  --accent-hover: rgb(150, 90, 0);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: var(--background-color);
+  transition: background-color 0.3s ease;
+}
+
+.title {
+  color: white;
+  font-size: 35px;
+  padding-block: 50px;
+  text-align: center;
+}
+
+.stuff {
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+}
+
+.down {
+  width: 20px;
+  margin-bottom: 10px;
+}
+
+.score {
+  margin-top: 20px;
+  font-size: 40px;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50px;
+}
+
+#xscore,
+#oscore {
+  margin-top: 50px;
+  transition: color 0.3s ease;
+}
+
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  width: 360px;
+  min-width: 360px;
+  height: 360px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.block {
+  width: 120px;
+  height: 120px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid white;
+  cursor: pointer;
+  transition: background-color 0.15s ease;
+}
+
+.block img {
+  width: 70px;
+}
+
+.modalback {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+  opacity: 0;
+  background-color: rgba(20, 20, 20, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(3px);
+  transition: opacity 0.15s ease;
+  transition-delay: 0.7s;
+  z-index: 100;
+}
+
+.modal {
+  width: 250px;
+  height: 250px;
+  background-color: black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  padding-block: 25px;
+  justify-content: space-between;
+}
+
+.modal h2 {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  padding-bottom: 30px;
+}
+
+.btns {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.btn {
+  background-color: var(--accent-color);
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  width: 50%;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  padding-block: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:first-of-type:hover {
+  background-color: var(--accent-hover);
+}
+
+.btn:last-of-type:hover {
+  border-color: var(--accent-hover);
+}
+
+.btn:last-of-type {
+  background-color: transparent;
+  border: 2px solid var(--accent-color);
+  margin-top: 15px;
+}
+
+.themes {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  right: 50px;
+  gap: 15px;
+}
+
+.themes div {
+  width: 25px;
+  height: 25px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.themes div:hover {
+  border: 2px solid white;
+}
+
+.info {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  right: 50px;
+  bottom: 20px;
+  cursor: pointer;
+}
+
+.info:after {
+  content: "This is a simple game where two players take turns placing down Xs or Os on the 3x3 grid. The first player to align 3 of their marks in a row wins. If none, then the game ends in a draw. The triangle indicates which player's turn it is. You can set a customized theme by clicking on the colors above.";
+  background-color: rgb(60, 60, 60);
+  width: 300px;
+  color: white;
+  position: absolute;
+  right: 0px;
+  bottom: 30px;
+  font-size: 13px;
+  border-radius: 10px;
+  padding: 10px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease;
+  transition-delay: 0.5s;
+}
+
+.info:hover:after {
+  visibility: visible;
+  opacity: 1;
+}
