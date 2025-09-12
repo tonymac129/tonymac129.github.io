@@ -1,0 +1,422 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #131921;
+}
+
+.nav {
+  display: flex;
+  border-bottom: 2px solid gray;
+  padding-inline: 150px;
+  padding-block: 10px;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 100;
+  background-color: #131921;
+  position: sticky;
+  top: 0;
+}
+
+.logo {
+  height: 50px;
+}
+
+.logo-img {
+  height: 100%;
+}
+
+.search {
+  background-color: transparent;
+  outline: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 18px;
+  border: 2px solid gray;
+  padding-inline: 30px;
+  padding-block: 10px;
+  width: 500px;
+}
+
+.search::placeholder {
+  font-style: italic;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.cart-items {
+  background-color: #fa8900;
+  border-radius: 15px;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #131921;
+}
+
+.content {
+  padding-inline: 150px;
+  padding-bottom: 50px;
+}
+
+.catagories {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 50px;
+  row-gap: 20px;
+}
+
+.catagory {
+  border: 2px solid gray;
+  border-radius: 5px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.catagory-title {
+  color: white;
+  padding-block: 20px;
+}
+
+.catagory-thumb {
+  width: 90%;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.hero-title {
+  color: white;
+  margin-top: 50px;
+  font-size: 40px;
+  text-align: center;
+}
+
+.subscription {
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.sub-text {
+  color: white;
+  width: 60%;
+  text-align: center;
+  font-size: 18px;
+}
+
+.prime-description {
+  font-size: 25px;
+  margin-inline: 40px;
+}
+
+.prime-price {
+  padding-block: 30px;
+}
+
+.prime-sub {
+  background-color: #1294F7;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  color: white;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  padding-inline: 20px;
+  padding-block: 10px;
+  cursor: pointer;
+  border: 2px solid #1294F7;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.prime-sub:first-of-type:hover {
+  background-color: #107acb;
+  border-color: #107acb;
+}
+
+.prime-sub:last-of-type {
+  margin-left: 15px;
+  background-color: transparent;
+  border: 2px solid gray;
+}
+
+.prime-logo {
+  width: 30%;
+  margin-left: 10%;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-info {
+  display: flex;
+  padding-block: 50px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product-name {
+  color: white;
+  font-size: 30px;
+  position: relative;
+}
+
+.product-name:hover::after {
+  visibility: visible;
+}
+
+.product-name::after {
+  content: "HP 15.6 inch Laptop, FHD Display, 12th Gen Intel Core i5, 16 GB RAM, 512 GB SSD, Intel Iris Xe Graphics, Windows 11 Home, 15-dy5399nr (2023),Silver";
+  background-color: #030911;
+  padding: 10px;
+  line-height: 20px;
+  font-size: 13px;
+  color: white;
+  border-radius: 5px;
+  visibility: hidden;
+  position: absolute;
+  top: 50px;
+  font-weight: normal;
+  left: 0;
+  opacity: 0.95;
+}
+
+.publisher,
+.publisher a {
+  font-size: 18px;
+  color: white;
+}
+
+.rating {
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.star {
+  height: 23px;
+}
+
+.product-img {
+  display: flex;
+  gap: 20px;
+  overflow: auto;
+  padding-bottom: 25px;
+}
+
+.product-image {
+  height: 250px;
+  border-radius: 5px;
+}
+
+.buy {
+  display: flex;
+  padding-bottom: 50px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.status {
+  color: white;
+  font-size: 15px;
+}
+
+.quality {
+  color: white;
+  font-size: 18px;
+}
+
+.dropdown {
+  border-radius: 5px;
+  border: none;
+  font-size: 18px;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+}
+
+.number,
+.buy-btn {
+  border: 2px solid gray;
+  padding-inline: 15px;
+  padding-block: 8px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.buy-btn {
+  font-size: 18px;
+  border: 2px solid #f7ca00;
+  outline: none;
+  background-color: #f7ca00;
+  font-weight: bold;
+  color: #131921;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.buy-btn:hover {
+  border-color: #bb9900;
+  background-color: #bb9900;
+}
+
+.buy-btn:first-of-type {
+  background-color: transparent;
+  border: 2px solid gray;
+  color: white;
+}
+
+.buy-btn:last-of-type {
+  background-color: #fa8900;
+  border-color: #fa8900;
+}
+
+.buy-btn:last-of-type:hover {
+  border-color: #b06100;
+  background-color: #b06100;
+}
+
+.product-description {
+  color: white;
+  font-size: 18px;
+  line-height: 28px;
+  padding-block: 50px;
+}
+
+.about-wrapper {
+  display: flex;
+  gap: 4%;
+  padding-bottom: 50px;
+}
+
+.about-product,
+.product-specs {
+  width: 48%;
+}
+
+.about-header,
+.specs-header,
+.similar-header {
+  color: white;
+  font-size: 25px;
+  padding-bottom: 30px;
+}
+
+.about-ul,
+.specs-ul {
+  padding-left: 15px;
+  color: white;
+  font-size: 18px;
+  max-height: 300px;
+  overflow: auto;
+}
+
+.about-ul li,
+.specs-ul li {
+  padding-bottom: 15px;
+}
+
+.about-ul li:last-of-type,
+.specs-ul li:last-of-type {
+  padding-bottom: 0;
+}
+
+.similar-items {
+  display: flex;
+  gap: 15px;
+  overflow: auto;
+  padding-bottom: 25px;
+}
+
+.similar-item {
+  border: 2px solid gray;
+  border-radius: 5px;
+  min-width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  padding-block: 20px;
+}
+
+.item-thumb {
+  height: 150px;
+  border-radius: 5px;
+}
+
+.item-price {
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+.item-rating {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding-top: 20px;
+}
+
+.small-star {
+  height: 20px;
+}
+
+.item-name {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.footer {
+  border-top: 2px solid gray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-block: 50px;
+}
+
+.links {
+  display: flex;
+  gap: 30px;
+  padding-bottom: 30px;
+}
+
+.link,
+.copyright {
+  color: white;
+}
+
+.footer-logo {
+  height: 50px;
+  margin-bottom: 30px;
+}

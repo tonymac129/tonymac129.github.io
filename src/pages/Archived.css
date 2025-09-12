@@ -1,0 +1,22 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: var(--secondary-text);
+  list-style-position: inside;
+}
+
+.list-link {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.list-link:hover {
+  text-decoration: underline;
+}
+
+.archive-section-title {
+  padding-block: 30px;
+  color: var(--primary-text);
+}

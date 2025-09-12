@@ -1,0 +1,45 @@
+.back {
+  position: absolute;
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  top: 0;
+  left: 20px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  transition: text-shadow 0.4s ease;
+  background-color: rgb(45, 45, 45);
+  padding-inline: 13px;
+  padding-block: 5px; 
+  border-radius: 30px;
+  justify-content: center;
+  margin: 15px;
+  width: 2%;
+  font-size: 30px;
+}
+
+.back:hover, .full-screen:hover {
+  text-shadow: 0px 0px 10px rgb(163, 163, 163);
+}
+
+.full-screen {
+  position: absolute;
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  top: 0;
+  right: 20px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  transition: text-shadow 0.4s ease;
+  background-color: rgb(45, 45, 45);
+  padding-inline: 13px;
+  padding-block: 5px;
+  border-radius: 30px;
+  justify-content: center;
+  margin: 15px;
+  width: 2%;
+  font-size: 30px;
+}
+
+.none {
+  display: none;
+}

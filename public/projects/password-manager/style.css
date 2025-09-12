@@ -1,0 +1,229 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: rgb(20, 20, 30);
+}
+
+.wrap {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin-inline: calc(50vw - 250px);
+  align-items: center;
+  gap: 25px;
+  padding-block: 25px;
+}
+
+.title {
+  color: white;
+  text-shadow: 0 0 10px rgb(150, 150, 150);
+  font-size: 40px;
+  text-align: center;
+}
+
+.form {
+  background-color: rgb(50, 50, 60);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  width: 100%;
+  gap: 10px;
+}
+
+.credentials {
+  display: flex;
+  gap: 10px;
+}
+
+.input {
+  background-color: transparent;
+  border: 2px solid rgb(150, 150, 150);
+  outline: none;
+  border-radius: 5px;
+  font-size: 18px;
+  color: white;
+  padding: 10px 15px;
+  flex: 1;
+  min-width: 50px;
+}
+
+.input::placeholder,
+.search::placeholder {
+  font-style: italic;
+  color: rgb(150, 150, 150);
+}
+
+.action {
+  background-color: rgb(110, 110, 150);
+  border: none;
+  outline: none;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.action:hover {
+  background-color: rgb(125, 125, 165);
+}
+
+.list,
+#warning {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: center;
+  color: rgb(180, 180, 180);
+  font-size: 18px;
+  width: 100%;
+}
+
+.item {
+  border-radius: 10px;
+  background-color: rgb(50, 50, 60);
+  width: 500px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.item-header {
+  background-color: rgb(110, 110, 150);
+  padding: 10px 15px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+}
+
+#link {
+  cursor: pointer;
+}
+
+#link:hover,
+#delete:hover,
+#edit:hover {
+  text-decoration: underline;
+}
+
+.item-icon {
+  width: 20px;
+  height: 20px;
+}
+
+#delete,
+#edit {
+  position: absolute;
+  cursor: pointer;
+  right: 15px;
+}
+
+#edit {
+  right: 80px;
+}
+
+.item-info {
+  display: flex;
+  padding: 10px 15px;
+}
+
+.item-value {
+  color: white;
+  font-size: 18px;
+  flex: 1;
+}
+
+.item-value span[contenteditable="true"],
+#link[contenteditable="true"],
+.note[contenteditable="true"] {
+  outline: 2px solid rgb(190, 190, 230);
+  border-radius: 5px;
+}
+
+.value-label {
+  color: rgb(180, 180, 180);
+  font-size: 15px;
+  margin-bottom: 2px;
+}
+
+.note {
+  margin-inline: 15px;
+  margin-bottom: 5px;
+  color: white;
+  font-size: 13px;
+}
+
+.search {
+  background-color: rgb(50, 50, 60);
+  width: 100%;
+  border-radius: 10px;
+  padding: 15px;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 18px;
+}
+
+#clear,
+.copy {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: rgb(150, 150, 150);
+  font-size: 13px;
+  cursor: pointer;
+}
+
+#clear:hover {
+  text-decoration: underline;
+}
+
+.copy {
+  left: auto;
+  right: 10px;
+  cursor: default;
+}
+
+.copy-link {
+  color: rgb(150, 150, 150);
+}
+
+@media (max-width: 800px) {
+  .wrap {
+    margin-inline: 5%;
+    width: 90%;
+    gap: 10px;
+    padding-block: 10px;
+  }
+
+  .item {
+    width: 100%;
+  }
+
+  .item-header,
+  .item-info,
+  .note {
+    padding: 5px;
+    gap: 5px;
+    font-size: 15px !important;
+  }
+  .item-info,
+  .note {
+    padding: 5px 10px;
+  }
+
+  .list {
+    gap: 10px;
+  }
+}

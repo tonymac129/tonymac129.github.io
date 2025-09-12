@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vigenère Cipher Tool</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrap">
+      <h1 class="title">Vigenère Cipher Tool</h1>
+      <p class="des">
+        The Vigenère Cipher encrypts text by shifting each letter based on a
+        repeating keyword. Each letter of the keyword determines the shift
+        amount by how far away from the letter A it is in the alphabet. You can also generate a random key.
+      </p>
+      <div class="form">
+        <div class="inputs">
+          <input
+            type="text"
+            id="input"
+            placeholder="Enter your message here"
+            autocomplete="off"
+          />
+          <input
+            type="text"
+            id="key"
+            placeholder="Enter your key here"
+            autocomplete="off"
+          />
+        </div>
+        <input type="checkbox" id="checkbox" />
+        <label for="checkbox">Use random key</label>
+        <div class="btns">
+          <button class="submit" id="encrypt">Encrypt</button>
+          <button class="submit" id="decrypt">Decrypt</button>
+        </div>
+      </div>
+      <p class="output none">
+        <span id="output"></span>
+        <span class="copy" id="copy">Copy</span>
+      </p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

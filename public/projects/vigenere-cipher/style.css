@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrap {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(20, 20, 25);
+}
+
+.title {
+  font-size: 40px;
+  color: rgb(215, 215, 215);
+}
+
+.des {
+  color: rgb(215, 215, 215);
+  width: 600px;
+  margin-block: 30px;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.form {
+  width: 600px;
+}
+
+.inputs {
+  display: flex;
+  gap: 15px;
+}
+
+.inputs input {
+  font-size: 18px;
+  background-color: rgb(15, 15, 20);
+  color: rgb(215, 215, 215);
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  padding-inline: 25px;
+  padding-block: 15px;
+  width: 38%;
+}
+
+.inputs input:first-of-type {
+  width: 60%;
+}
+
+.btns {
+  display: flex;
+  gap: 15px;
+}
+
+.submit {
+  background-color: rgb(15, 15, 20);
+  color: rgb(215, 215, 215);
+  font-size: 18px;
+  width: 50%;
+  padding-block: 15px;
+  margin-block: 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.submit:hover {
+  background-color: rgb(30, 30, 40);
+}
+
+.output {
+  background-color: rgb(15, 15, 20);
+  border-radius: 10px;
+  color: rgb(215, 215, 215);
+  width: 600px;
+  font-size: 18px;
+  line-height: 30px;
+  padding-inline: 25px;
+  padding-block: 15px;
+  position: relative;
+}
+
+.none {
+  display: none;
+}
+
+.copy {
+  width: 40px;
+  height: 40px;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 5px;
+  color: rgb(215, 215, 215);
+  background-color: rgb(30, 30, 40);
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+label {
+  font-size: 18px;
+  color: rgb(215, 215, 215);
+  padding-left: 5px;
+  padding-top: 20px;
+  display: inline-block;
+}

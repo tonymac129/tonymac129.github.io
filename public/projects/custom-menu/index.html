@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Custom Context Menu Project</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js"></script>
+  </head>
+  <body id="body">
+    <h1>Custom Right Click Context Menu!</h1>
+    <p>
+      In this small coding project, I experimented with a custom context menu,
+      the list of options that pop up when you right click. It's simple
+      JavaScript about detecting the event, get the cursor's current posistion,
+      and then show the menu according to where the cursor is. The JavaScript
+      code also handles the actual functions from the menu.
+    </p>
+    <p>
+      I will probably use this technique on my own web apps I'll hopefully
+      finish developing in the future, because, come on, I can literally do
+      anything with this awesome customized context menu!
+    </p>
+    <p>
+      <i
+        >Note: Because of security problems, inspect doesn't work. And what do
+        you need to delete on this page?</i
+      >
+    </p>
+    <div class="menu" id="menu">
+      <div class="item" id="copy"><img src="copy-regular.svg" />Copy</div>
+      <div class="item" id="share"><img src="share-solid.svg" />Share</div>
+      <div class="item"><img src="trash-solid.svg" />Delete</div>
+      <div class="item" id="setting-op">
+        <img src="gear-solid.svg" />Settings
+      </div>
+      <div class="settings">
+        <div class="item" id="light">
+          <img
+            src="check-solid.svg"
+            id="check2"
+            style="visibility: hidden"
+          />Light
+        </div>
+        <div class="item" id="dark">
+          <img
+            src="check-solid.svg"
+            id="check"
+            style="visibility: visible"
+          />Dark
+        </div>
+      </div>
+      <div class="item"><img src="magnifying-glass-solid.svg" />Inspect</div>
+    </div>
+  </body>
+</html>

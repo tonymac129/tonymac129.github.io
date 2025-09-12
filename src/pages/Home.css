@@ -1,0 +1,166 @@
+.home {
+  display: flex;
+  gap: 100px;
+  padding-block: 100px;
+}
+
+.home-content {
+  flex: 3;
+  gap: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.home-title {
+  color: var(--primary-color);
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.section-description {
+  color: var(--secondary-text);
+  line-height: 30px;
+  font-size: 18px;
+}
+
+.section-description a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.section-description a:hover {
+  text-decoration: underline;
+}
+
+.home-img {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+}
+
+.section-img-caption {
+  color: var(--secondary-text);
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.home-img img {
+  width: 80%;
+  border-radius: 100%;
+  border: 2px solid var(--primary-border);
+}
+
+.sections {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.section {
+  border-radius: 20px;
+  padding-block: 30px;
+  display: flex;
+  gap: 100px;
+  align-items: center;
+}
+
+.section-content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  flex: 3;
+}
+
+.section-title {
+  color: var(--primary-text);
+  font-size: 25px;
+}
+
+.section-imgs {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.featured-section-imgs {
+  display: flex;
+  gap: 15px;
+  justify-content: start;
+  flex-direction: row;
+}
+
+.section-img {
+  position: relative;
+}
+
+.section-img img {
+  width: 40px;
+  height: 40px;
+  position: relative;
+}
+
+.single-img {
+  width: 200px !important;
+  height: 200px !important;
+  border-radius: 30px;
+}
+
+.img-hover {
+  position: absolute;
+  top: -35px;
+  left: 50%;
+  padding: 5px 10px;
+  background-color: var(--primary-border);
+  text-align: center;
+  color: var(--primary-text);
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 30px;
+  transform: scale(0) translateX(-50%);
+  transform-origin: left 20px;
+  transition: transform 0.3s ease;
+  white-space: nowrap;
+}
+
+.img-hover::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: var(--primary-border) transparent transparent transparent;
+}
+
+.hovered {
+  transform: scale(1) translateX(-50%);
+}
+
+@media (max-width: 750px) {
+  .home {
+    flex-direction: column;
+    gap: 30px;
+    padding-block: 30px;
+  }
+
+  .home-content {
+    gap: 10px;
+  }
+
+  .home-img img {
+    width: 150px;
+  }
+
+  .home-img {
+    flex-direction: row;
+  }
+
+  .section {
+    flex-direction: column;
+  }
+}
