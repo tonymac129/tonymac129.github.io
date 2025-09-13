@@ -7,7 +7,7 @@ import { html, css, js, react, csharp, unity } from "../assets/assets";
 function Featured() {
   return (
     <motion.div initial={{ y: 200, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 0.6, type: "spring" }}>
-      <title>Featured | MacVG</title>
+      <title>Featured | TonyMac129</title>
       <Hero
         title="Featured Projects"
         description="Here are the best large scale web development projects that I've created and put a lot of effort into. I'm still maintaining and constantly updating some of these, so feel free to check out these featured coding projects!"

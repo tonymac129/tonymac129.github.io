@@ -8,9 +8,15 @@ import python from "./icons/python.svg";
 import java from "./icons/java.svg";
 import react from "./icons/react.svg";
 import unity from "./icons/unity.svg";
+import webdesign from "./icons/design.svg";
+import typing from "./icons/typing.svg";
+import basketball from "./icons/basketball.svg";
+import chinese from "./icons/chinese.svg";
+import cubing from "./icons/cube.svg";
+import diabolo from "./icons/diabolo.png";
 import minecraft from "./img/minecraft.jpg";
 import stem from "./img/stem.jpg";
-import basketball from "./img/basketball.jpg";
+import basketballh from "./img/basketball.jpg";
 import email from "./icons/email.svg";
 import discord from "./icons/discord.svg";
 import github from "./icons/github.svg";
@@ -35,9 +41,15 @@ export {
   java,
   react,
   unity,
+  webdesign,
+  typing,
+  basketball,
+  chinese,
+  diabolo,
+  cubing,
   minecraft,
   stem,
-  basketball,
+  basketballh,
   email,
   discord,
   github,

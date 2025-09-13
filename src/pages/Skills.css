@@ -1,0 +1,121 @@
+.skill-functions {
+  display: flex;
+  padding-bottom: 30px;
+  gap: 50px;
+  justify-content: center;
+  position: relative;
+}
+
+.skill-filters {
+  display: flex;
+  gap: 10px;
+}
+
+.skill-sort,
+.skill-filter {
+  border-radius: 30px;
+  background-color: var(--primary-color);
+  color: var(--primary-text);
+  font-size: 18px;
+  padding-block: 10px;
+  text-align: center;
+  width: 130px;
+  border: none;
+  outline: none;
+  appearance: none;
+  text-align: center;
+  cursor: pointer;
+}
+
+.skill-sort {
+  position: absolute;
+  left: 0;
+}
+
+.skill-sort option {
+  background-color: var(--primary-border);
+}
+
+.skill-filter {
+  background-color: var(--primary-bg);
+  border: 2px solid var(--primary-border);
+}
+
+.skill-selected {
+  background-color: var(--primary-border);
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.skill-card {
+  padding: 15px 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background-color: var(--primary-border);
+  min-width: 270px;
+  flex: 1;
+  max-width: calc(25% - 15px);
+  text-decoration: none;
+  transition: transform 0.3s ease;
+}
+
+.skill-card:hover {
+  transform: translateY(-5px) scale(1.03);
+}
+
+.skill-img {
+  width: 40px;
+}
+
+.skill-content {
+  display: flex;
+  gap: 20px;
+  color: var(--secondary-text);
+  align-items: center;
+}
+
+.skill-text {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.skill-name {
+  color: var(--primary-text);
+}
+
+.skill-status {
+  font-size: 15px;
+}
+
+.skill-level {
+  display: flex;
+  color: var(--secondary-text);
+  justify-content: space-between;
+  gap: 5px;
+  width: 100%;
+  align-items: center;
+}
+
+.skill-bar {
+  background-color: var(--primary-bg);
+  border-radius: 10px;
+  width: 100%;
+  overflow: hidden;
+  height: 12px;
+}
+
+.skill-progress {
+  background-color: var(--primary-color);
+  color: var(--primary-text);
+  text-align: right;
+  padding-inline: 5px;
+  height: 100%;
+}

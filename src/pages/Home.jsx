@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { logo, cli, csharp, css, html, js, python, java, react, unity, minecraft, stem, basketball } from "../assets/assets";
+import { logo, cli, csharp, css, html, js, python, java, react, unity, minecraft, stem, basketballh } from "../assets/assets";
 import "./Home.css";
 import Btn from "../components/Btn";
 import SectionImg from "../components/SectionImg";
@@ -153,7 +153,7 @@ function Home() {
               </div>
             </div>
             <div className="section-imgs">
-              <SectionImg src={basketball} title="Basketball" single={true} />
+              <SectionImg src={basketballh} title="Basketball" single={true} />
               <p className="section-img-caption">Maybe I'm a bandwagon Lakers fan, but they got LeBron 👑</p>
             </div>
           </motion.div>

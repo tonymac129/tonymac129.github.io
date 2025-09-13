@@ -3,6 +3,7 @@ import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import Archived from "./pages/Archived";
 import Featured from "./pages/Featured";
+import Skills from "./pages/Skills";
 import Nav from "./components/Nav";
 import Footer from "./components/Footer";
 import ScrollTop from "./components/ScrollTop";
@@ -18,6 +19,7 @@ function App() {
         <Route path="/projects" element={<Projects />} />
         <Route path="/projects/archived" element={<Archived />} />
         <Route path="/featured" element={<Featured />} />
+        <Route path="/skills" element={<Skills />} />
       </Routes>
       <Footer />
     </BrowserRouter>
