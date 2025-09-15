@@ -1,0 +1,92 @@
+.about-section {
+    display: flex;
+    gap: 100px;
+    margin-top: 50px;
+}
+
+.about-side {
+    flex: 1;
+}
+
+.about-content {
+    flex: 2;
+}
+
+.about-img {
+    height: 200px !important;
+    width: 200px !important;
+}
+
+.statuses {
+    padding-block: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.status, .favorite {
+    background-color: var(--primary-border);
+    display: flex;
+    gap: 20px;
+    border-radius: 10px;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: var(--primary-text);
+    justify-content: space-between;
+}
+
+.status-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.status-title {
+    color: var(--secondary-text);
+    font-size: 18px;
+}
+
+.status-tag {
+    font-size: 14px;
+    color: var(--secondary-text);
+    font-weight: normal;
+}
+
+.status-img {
+    height: 80px;
+    border-radius: 5px;
+}
+
+.about-paragraph {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.about-title {
+    font-size: 30px;
+    text-align: center;
+    padding-block: 30px;
+    color: var(--primary-text);
+}
+
+.favorite-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.favorite {
+    width: 23%;
+    justify-content: start;
+    min-width: 200px;
+}
