@@ -28,6 +28,8 @@ import x from "./icons/x.svg";
 import facebook from "./icons/facebook.svg";
 import back from "./icons/back.svg";
 import next from "./icons/next.svg";
+import gallery from "./icons/gallery.svg";
+import grid from "./icons/grid.svg";
 import projectData from "./projects.json";
 
 export {
@@ -61,5 +63,7 @@ export {
   youtube,
   back,
   next,
+  gallery,
+  grid,
   projectData,
 };

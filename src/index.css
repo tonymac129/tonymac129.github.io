@@ -212,6 +212,10 @@ body {
   .content {
     padding-inline: 25px;
   }
+
+  .projects-grid,.grid-functions {
+    margin-inline: 25px !important;
+  }
 }
 
 @media (max-width: 750px) {

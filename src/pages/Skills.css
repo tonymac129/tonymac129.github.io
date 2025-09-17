@@ -25,6 +25,7 @@
   appearance: none;
   text-align: center;
   cursor: pointer;
+  border: 2px solid var(--primary-color);
 }
 
 .skill-sort {
@@ -39,6 +40,8 @@
 .skill-filter {
   background-color: var(--primary-bg);
   border: 2px solid var(--primary-border);
+  width: auto;
+  padding-inline: 20px;
 }
 
 .skill-selected {
