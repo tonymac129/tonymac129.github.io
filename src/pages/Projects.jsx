@@ -10,7 +10,7 @@ import SectionImg from "../components/SectionImg";
 function Projects() {
   const [projectID, setProjectID] = useState(0);
   const [next, setNext] = useState(false);
-  const [isGrid, setIsGrid] = useState(false);
+  const [isGrid, setIsGrid] = useState(true);
   const [final, setFinal] = useState(projectData.projects);
   const [filter, setFilter] = useState(-1);
   const [display, setDisplay] = useState(projectData.projects);

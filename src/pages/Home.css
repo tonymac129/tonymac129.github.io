@@ -101,12 +101,14 @@
   width: 40px;
   height: 40px;
   position: relative;
+  filter: var(--invert);
 }
 
 .single-img {
   width: 200px !important;
   height: 200px !important;
   border-radius: 30px;
+  filter: none !important;
 }
 
 .img-hover {

@@ -3,23 +3,24 @@ import Hero from "../components/Hero";
 import Skill from "../components/Skill";
 import "./Skills.css";
 import { useEffect, useState } from "react";
+import { infoData } from "../assets/assets";
 
 const skills = [
-  { name: "HTML", percent: 98, description: "HTML builds the content of a website.", type: ["language", "web"] },
-  { name: "CSS", percent: 95, description: "CSS styles the looks and layouts of a website.", type: ["language", "web"] },
-  { name: "JavaScript", percent: 85, description: "JavaScript makes a website interactive.", type: ["language", "web"] },
-  { name: "React", percent: 70, description: "The most popular JS component-based library.", type: ["language", "web"] },
-  { name: "Python", percent: 40, description: "Python is a powerful and versatile language.", type: ["language"] },
-  { name: "Java", percent: 30, description: "Popular language that's used almost everywhere.", type: ["language"] },
-  { name: "Unity", percent: 40, description: "The most used game engine to make games.", type: ["tool"] },
-  { name: "C#", percent: 15, description: "A versatile programming language used by Unity.", type: ["language"] },
-  { name: "Web Design", percent: 70, description: "Designing a website to make it more appealing.", type: ["web"] },
-  { name: "CLI", percent: 40, description: "Using tools like Git, npm, and Vite through a terminal.", type: ["tool"] },
-  { name: "Typing", percent: 98, description: "Speed typing means typing really fast.", type: ["other"] },
-  { name: "Chinese", percent: 95, description: "The language with the most native speakers.", type: ["other"] },
-  { name: "Diabolo", percent: 85, description: "This toy is spun, thrown, or juggled with a string.", type: ["other"] },
-  { name: "Basketball", percent: 80, description: "A sport where you shoot baskets to score.", type: ["other"] },
-  { name: "Cubing", percent: 70, description: "Sorting the colors on a Rubik's cube.", type: ["other"] },
+  { id: 0, name: "HTML", percent: 98, description: "HTML builds the content of a website.", type: ["language", "web"] },
+  { id: 1, name: "CSS", percent: 95, description: "CSS styles the looks and layouts of a website.", type: ["language", "web"] },
+  { id: 2, name: "JavaScript", percent: 85, description: "JavaScript makes a website interactive.", type: ["language", "web"] },
+  { id: 3, name: "React", percent: 70, description: "The most popular JS component-based library.", type: ["language", "web"] },
+  { id: 4, name: "Python", percent: 40, description: "Python is a powerful and versatile language.", type: ["language"] },
+  { id: 5, name: "Java", percent: 30, description: "Popular language that's used almost everywhere.", type: ["language"] },
+  { id: 6, name: "Unity", percent: 40, description: "The most used game engine to make games.", type: ["tool"] },
+  { id: 7, name: "C#", percent: 15, description: "A versatile programming language used by Unity.", type: ["language"] },
+  { id: 8, name: "Web Design", percent: 70, description: "Designing a website to make it more appealing.", type: ["web"] },
+  { id: 9, name: "CLI", percent: 40, description: "Using tools like Git, npm, and Vite through a terminal.", type: ["tool"] },
+  { id: 10, name: "Typing", percent: 98, description: "Speed typing means typing really fast.", type: ["other"] },
+  { id: 11, name: "Chinese", percent: 95, description: "The language with the most native speakers.", type: ["other"] },
+  { id: 12, name: "Diabolo", percent: 85, description: "This toy is spun, thrown, or juggled with a string.", type: ["other"] },
+  { id: 13, name: "Basketball", percent: 80, description: "A sport where you shoot baskets to score.", type: ["other"] },
+  { id: 14, name: "Cubing", percent: 70, description: "Sorting the colors on a Rubik's cube.", type: ["other"] },
 ];
 
 function Skills() {
@@ -93,7 +94,9 @@ function Skills() {
         </div>
         <div className="skills">
           {display.map((skill) => {
-            return <Skill name={skill.name} percent={skill.percent} description={skill.description} />;
+            return (
+              <Skill name={skill.name} percent={skill.percent} description={skill.description} info={infoData.skills[skill.id]} />
+            );
           })}
         </div>
       </div>

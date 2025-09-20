@@ -67,6 +67,7 @@
   max-width: calc(25% - 15px);
   text-decoration: none;
   transition: transform 0.3s ease;
+  cursor: pointer;
 }
 
 .skill-card:hover {
@@ -75,6 +76,7 @@
 
 .skill-img {
   width: 40px;
+  filter: var(--invert);
 }
 
 .skill-content {

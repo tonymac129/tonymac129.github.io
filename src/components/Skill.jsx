@@ -15,9 +15,13 @@ import {
   diabolo,
   cubing,
 } from "../assets/assets";
-import { Link } from "react-router";
+import InfoModal from "./InfoModal";
+import { AnimatePresence } from "framer-motion";
+import { useEffect, useState } from "react";
 
-function Skill({ name, percent, description }) {
+function Skill({ name, percent, description, info }) {
+  const [open, setOpen] = useState(false);
+
   const icons = {
     html,
     css,
@@ -36,22 +40,35 @@ function Skill({ name, percent, description }) {
     cubing,
   };
 
+  useEffect(() => {
+    document.body.classList.toggle("no-scroll");
+  }, [open]);
+
   return (
-    <Link className="skill-card">
-      <div className="skill-content">
-        <img src={icons[name.replace(" ", "").toLowerCase()] || icons.csharp} className="skill-img" />
-        <div className="skill-text">
-          <h2 className="skill-name">{name}</h2>
-          <p className="skill-status">{description}</p>
+    <>
+      <div
+        className="skill-card"
+        onClick={() => {
+          setOpen(true);
+        }}
+        title="Click on me!"
+      >
+        <div className="skill-content">
+          <img src={icons[name.replace(" ", "").toLowerCase()] || icons.csharp} className="skill-img" />
+          <div className="skill-text">
+            <h2 className="skill-name">{name}</h2>
+            <p className="skill-status">{description}</p>
+          </div>
+        </div>
+        <div className="skill-level">
+          <div className="skill-bar">
+            <div className="skill-progress" style={{ width: percent + "%" }}></div>
+          </div>
+          {percent}%
         </div>
       </div>
-      <div className="skill-level">
-        <div className="skill-bar">
-          <div className="skill-progress" style={{ width: percent + "%" }}></div>
-        </div>
-        {percent}%
-      </div>
-    </Link>
+      <AnimatePresence>{open && <InfoModal info={info} setOpen={setOpen} />}</AnimatePresence>
+    </>
   );
 }
 

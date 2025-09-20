@@ -30,7 +30,12 @@ import back from "./icons/back.svg";
 import next from "./icons/next.svg";
 import gallery from "./icons/gallery.svg";
 import grid from "./icons/grid.svg";
+import close from "./icons/close.svg";
+import lazy from "./lazy.png";
+import dark from "./icons/dark.svg";
+import light from "./icons/light.svg";
 import projectData from "./projects.json";
+import infoData from "./info.json";
 
 export {
   logo,
@@ -65,5 +70,10 @@ export {
   next,
   gallery,
   grid,
+  close,
+  lazy,
+  dark,
+  light,
   projectData,
+  infoData,
 };

@@ -1,7 +1,20 @@
 import { Link } from "react-router";
-import { logo } from "../assets/assets";
+import { logo, dark, light } from "../assets/assets";
+import { useState, useEffect } from "react";
+import { motion } from "framer-motion";
 
 function Nav() {
+  const [mode, setMode] = useState(JSON.parse(localStorage.getItem("tonymac129-mode")) || false);
+
+  useEffect(() => {
+    localStorage.setItem("tonymac129-mode", mode);
+    if (mode) {
+      document.body.className = "light";
+    } else {
+      document.body.className = "";
+    }
+  }, [mode]);
+
   return (
     <nav className="nav">
       <Link to="/" className="nav-logo">
@@ -21,6 +34,17 @@ function Nav() {
         <Link to="/about" className="nav-link">
           About
         </Link>
+      </div>
+      <div className="nav-functions">
+        <input placeholder="Search TonyMac129" className="nav-search" />
+        <motion.img
+          whileHover={{ scale: 1.3, rotate: 15 }}
+          whileTap={{ scale: 1.1, rotate: 5 }}
+          src={mode ? dark : light}
+          className="nav-btn"
+          onClick={() => setMode(!mode)}
+          title="Toggle light mode"
+        />
       </div>
     </nav>
   );
