@@ -1,10 +1,28 @@
 import { Link } from "react-router";
-import { logo, dark, light } from "../assets/assets";
-import { useState, useEffect } from "react";
+import { logo, dark, light, projectData, infoData } from "../assets/assets";
+import { useState, useEffect, useRef } from "react";
 import { motion } from "framer-motion";
 
 function Nav() {
   const [mode, setMode] = useState(JSON.parse(localStorage.getItem("tonymac129-mode")) || false);
+  const [search, setSearch] = useState("");
+  const all = [...projectData.projects, ...infoData.skills];
+  const [display, setDisplay] = useState(all);
+  const [searching, setSearching] = useState(false);
+  const searchRef = useRef();
+
+  useEffect(() => {
+    const handleClick = (e) => {
+      if (searchRef.current && !searchRef.current.contains(e.target)) {
+        setSearching(false);
+      }
+    };
+
+    document.addEventListener("click", handleClick);
+    return () => {
+      document.removeEventListener("click", handleClick);
+    };
+  }, []);
 
   useEffect(() => {
     localStorage.setItem("tonymac129-mode", mode);
@@ -14,6 +32,21 @@ function Nav() {
       document.body.className = "";
     }
   }, [mode]);
+
+  useEffect(() => {
+    if (search.trim().length > 0) {
+      let q = search.trim().toLowerCase();
+      setDisplay(
+        all.filter(
+          (item) =>
+            item.name?.toLowerCase().includes(q) ||
+            item.title?.toLowerCase().includes(q) ||
+            item.description?.toLowerCase().includes(q) ||
+            item.text?.toLowerCase().includes(q)
+        )
+      );
+    }
+  }, [search]);
 
   return (
     <nav className="nav">
@@ -36,7 +69,29 @@ function Nav() {
         </Link>
       </div>
       <div className="nav-functions">
-        <input placeholder="Search TonyMac129" className="nav-search" />
+        <div className="nav-search-container" onClick={() => setSearching(true)} ref={searchRef}>
+          <input
+            placeholder="Search TonyMac129"
+            className="nav-search"
+            value={search}
+            onInput={(e) => setSearch(e.target.value)}
+          />
+          {search.length > 0 && searching && display.length > 0 && (
+            <div className="nav-search-results">
+              {display.slice(0, 5).map((item) => {
+                return (
+                  <div
+                    onClick={() => window.open(item.link || "/#/skills", "_blank")}
+                    target="_blank"
+                    className="nav-search-result"
+                  >
+                    {item.name || item.title}
+                  </div>
+                );
+              })}
+            </div>
+          )}
+        </div>
         <motion.img
           whileHover={{ scale: 1.3, rotate: 15 }}
           whileTap={{ scale: 1.1, rotate: 5 }}

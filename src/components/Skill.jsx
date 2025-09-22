@@ -41,7 +41,11 @@ function Skill({ name, percent, description, info }) {
   };
 
   useEffect(() => {
-    document.body.classList.toggle("no-scroll");
+    if (open) {
+      document.body.classList.add("no-scroll");
+    } else {
+      document.body.classList.remove("no-scroll");
+    }
   }, [open]);
 
   return (

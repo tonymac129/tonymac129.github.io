@@ -91,6 +91,57 @@ function About() {
             </div>
           </div>
         </div>
+        <h2 className="about-title">Things I Use</h2>
+        <div className="favorite-cards use-cards">
+          <Favorite
+            name="Galaxy S25"
+            description="My first ever phone! (iPhones suck)"
+            img="https://ss7.vzw.com/is/image/VerizonWireless/samsung-galaxy-s25-icyblue?$device-lg$"
+            link="https://www.verizon.com/smartphones/samsung-galaxy-s25/"
+          />
+          <Favorite
+            name="HP Laptop"
+            description="What I use for code, school, and fun."
+            img="https://m.media-amazon.com/images/I/71oi5Pn8f0L.jpg"
+            link="https://www.amazon.com/HP-Laptop-Windows-Natural-Silver/dp/B08Y5KKXFB"
+          />
+          <Favorite
+            name="HP Pavilion Chromebook"
+            description="$100 school laptop 🥀"
+            img="https://techtoschool.com/cdn/shop/files/1069604087-2_6639c28a-99b5-42df-a4bd-7f9b5ebb5d0a_1200x1200.jpg?v=1684778737"
+            link="https://www.google.com/chromebook/"
+          />
+          <Favorite
+            name="Visual Studio Code"
+            description="The best web dev code editor"
+            img="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/2048px-Visual_Studio_Code_1.35_icon.svg.png"
+            link="https://code.visualstudio.com"
+          />
+          <Favorite
+            name="Discord"
+            description="IDK why I use it."
+            img="https://images-eds-ssl.xboxlive.com/image?url=4rt9.lXDC4H_93laV1_eHHFT949fUipzkiFOBH3fAiZZUCdYojwUyX2aTonS1aIwMrx6NUIsHfUHSLzjGJFxxsG72wAo9EWJR4yQWyJJaDaK1XdUso6cUMpI9hAdPUU_FNs11cY1X284vsHrnWtRw7oqRpN1m9YAg21d_aNKnIo-&format=source"
+            link="https://discord.com"
+          />
+          <Favorite
+            name="Microsoft Edge"
+            description="To save resources but lowkey a good browser"
+            img="https://avatars.githubusercontent.com/u/11354582?s=200&v=4"
+            link="https://www.microsoft.com/en-us/edge/?ep=0&form=MA1403&es=222&cs=3937985797"
+          />
+          <Favorite
+            name="ChatGPT"
+            description="Too lazy to Google stuff and has coding skill issues"
+            img="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/ChatGPT-Logo.svg/250px-ChatGPT-Logo.svg.png"
+            link="https://chatgpt.com"
+          />
+          <Favorite
+            name="GitHub Pages"
+            description="Can't afford real web hosting apps"
+            img="https://yt3.googleusercontent.com/PKRBxhCiGa8Y0vPmHa1E2cdjpLhUq2Pl-gESwP7kk2plGgxLdsbjyTd9VjcJwBMiY0HQ8bvx5Q=s900-c-k-c0x00ffffff-no-rj"
+            link="https://pages.github.com"
+          />
+        </div>
         <h2 className="about-title">Things I Like</h2>
         <div className="favorite-cards">
           <Favorite
@@ -138,8 +189,8 @@ function About() {
           <Favorite
             name="Harry Potter"
             description={'"There is no safer place than Hogwarts ☝️🤓"'}
-                img="https://m.media-amazon.com/images/I/81DI+BAN2SL._UF1000,1000_QL80_.jpg"
-                link="https://en.wikipedia.org/wiki/Harry_Potter_and_the_Philosopher%27s_Stone"
+            img="https://m.media-amazon.com/images/I/81DI+BAN2SL._UF1000,1000_QL80_.jpg"
+            link="https://en.wikipedia.org/wiki/Harry_Potter_and_the_Philosopher%27s_Stone"
           />
           <Favorite
             name="The Mandalorian"

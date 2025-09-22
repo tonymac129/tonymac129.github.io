@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router";
+import { HashRouter, Routes, Route } from "react-router";
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import Archived from "./pages/Archived";
@@ -12,7 +12,7 @@ import "./index.css";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <ScrollTop />
       <Nav />
       <Routes>
@@ -24,7 +24,7 @@ function App() {
         <Route path="/about" element={<About />} />
       </Routes>
       <Footer />
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 

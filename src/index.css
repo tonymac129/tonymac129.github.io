@@ -117,13 +117,50 @@ body {
   gap: 20px;
 }
 
+.nav-search-container {
+  background-color: var(--primary-border);
+  width: 230px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.nav-search-container:has(.nav-search-results) {
+  border-radius: 10px 10px 0px 0px;
+}
+
 .nav-search {
   background-color: transparent;
   border: none;
   outline: none;
   font-size: 16px;
+  color: var(--primary-text);
+  width: 100%;
+  padding: 10px 20px;
+}
+
+.nav-search-results {
+  position: absolute;
+  background-color: var(--primary-border);
+  top: 100%;
+  padding-inline: 20px;
+  width: 100%;
+  left: 0;
+  border-radius: 0px 0px 10px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding-block: 10px;
+}
+
+.nav-search-result {
+  cursor: pointer;
+  padding-block: 5px;
   color: var(--secondary-text);
-  width: 200px;
+  transition: color 0.3s ease;
+}
+
+.nav-search-result:hover {
+  color: var(--primary-color);
 }
 
 .nav-btn {
