@@ -217,6 +217,49 @@ function About() {
             link="https://www.imdb.com/title/tt10919420/"
           />
         </div>
+        <h2 className="about-title">Other Things I Like</h2>
+        <div className="favorite-cards">
+          <Favorite
+            name="Pizza"
+            description={'The most popular food in the world'}
+            img="https://media.istockphoto.com/id/901501348/vector/slice-of-melted-cheese-pepperoni-pizza.jpg?s=612x612&w=0&k=20&c=0cIsVfLHiabGD1NGDZEfE1hIBmD5DQuzNuLK8Owvyo8="
+          />
+          <Favorite
+            name="Beef Noodles"
+            description={'Peak Asian food (especially the spicy ones)'}
+            img="https://thewoksoflife.com/wp-content/uploads/2016/02/beef-noodle-soup-7-1.jpg"
+          />
+          <Favorite
+            name="Oreo"
+            description={'Too good'}
+            img="https://m.media-amazon.com/images/I/81d3XikUx+L._UF350,350_QL80_.jpg"
+          />
+          <Favorite
+            name="Takis"
+            description={'Best TV snack'}
+            img="https://ih1.redbubble.net/image.4377687259.0952/st,small,507x507-pad,600x600,f8f8f8.u2.jpg"
+          />
+          <Favorite
+            name="Doritos"
+            description={'Second best TV snack'}
+            img="https://ih1.redbubble.net/image.285467560.8952/st,small,507x507-pad,600x600,f8f8f8.u1.jpg"
+          />
+          <Favorite
+            name="Music"
+            description={'I listen to... a lot of stuff, pop, rap, rock, and more'}
+            img="https://static.vecteezy.com/system/resources/previews/006/057/992/non_2x/spotify-logo-on-transparent-background-free-vector.jpg"
+          />
+          <Favorite
+            name="Brawl Stars"
+            description={'Clash is NOT better bro ⭐🔛🔝 (61k trophies)'}
+            img="https://i.scdn.co/image/ab6761610000e5ebf7b952107c126c561c52171e"
+          />
+          <Favorite
+            name="Minecraft"
+            description={'I get dizzy playing this but I still do 💀'}
+            img="https://yt3.googleusercontent.com/scvGT8SucZvs5yIkBBFQ0s0IQS1kPiiJgtYGUCTtRpIfSq6laBJ-5bPieuzrHuyVWIy0XxN4Ww=s900-c-k-c0x00ffffff-no-rj"
+          />
+        </div>
       </div>
     </motion.div>
   );
