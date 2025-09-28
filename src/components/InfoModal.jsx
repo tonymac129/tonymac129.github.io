@@ -1,7 +1,8 @@
 import { motion } from "framer-motion";
+import { Link } from "react-router";
 import { close, lazy } from "../assets/assets";
 
-function InfoModal({ info, setOpen }) {
+function InfoModal({ info, setOpen, fromBlog }) {
   return (
     <motion.div
       className="modal-bg"
@@ -26,8 +27,15 @@ function InfoModal({ info, setOpen }) {
         />
         {info ? (
           <>
+            {!fromBlog && (
+              <Link to="/blog" className="blog-link">
+                Go to blog page
+              </Link>
+            )}
             <h2 className="modal-title">{info.title}</h2>
-            <div className="modal-info">By Tony&nbsp;&nbsp;•&nbsp;&nbsp;{info.date}</div>
+            <div className="modal-info">
+              Updated &nbsp;{info.date} &nbsp;&nbsp; • &nbsp;&nbsp; Published &nbsp;{info.release}
+            </div>
             <div className="modal-text">
               {info.text.split("<BR>").map((paragraph) => {
                 return <p className="modal-paragraph">{paragraph}</p>;

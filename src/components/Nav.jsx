@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 function Nav() {
   const [mode, setMode] = useState(JSON.parse(localStorage.getItem("tonymac129-mode")) || false);
   const [search, setSearch] = useState("");
-  const all = [...projectData.projects, ...infoData.skills];
+  const all = [...projectData.projects, ...infoData.posts];
   const [display, setDisplay] = useState(all);
   const [searching, setSearching] = useState(false);
   const searchRef = useRef();
@@ -64,6 +64,9 @@ function Nav() {
         <Link to="/skills" className="nav-link">
           Skills
         </Link>
+        <Link to="/blog" className="nav-link">
+          Blog
+        </Link>
         <Link to="/about" className="nav-link">
           About
         </Link>
@@ -81,7 +84,7 @@ function Nav() {
               {display.slice(0, 5).map((item) => {
                 return (
                   <div
-                    onClick={() => window.open(item.link || "/#/skills", "_blank")}
+                    onClick={() => window.open(item.link || item.tag == "skill" ? "/#/skills" : "/#/blog", "_blank")}
                     target="_blank"
                     className="nav-search-result"
                   >

@@ -124,7 +124,7 @@ function Home() {
               </div>
               <div className="section-btns">
                 <Btn link="/about" text="More about me" primary={true} />
-                <Btn link="/contact" text="Contact me" />
+                <Btn link="/blog" text="My blog" />
               </div>
             </div>
             <div className="section-imgs">
@@ -150,6 +150,9 @@ function Home() {
                 trying my hardest to get in MIT, but I'm not the tryhard you're probably picturing in your mind right now (or am
                 I?). I procrastinate 24/7, often play basketball with my friends, hang out with them and play different games
                 together, and travel to different places during summer.
+              </div>
+              <div className="section-btns">
+                <Btn link="/blog" text="Read my blog" primary={true} />
               </div>
             </div>
             <div className="section-imgs">

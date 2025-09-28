@@ -19,7 +19,7 @@ import InfoModal from "./InfoModal";
 import { AnimatePresence } from "framer-motion";
 import { useEffect, useState } from "react";
 
-function Skill({ name, percent, description, info }) {
+function Skill({ name, percent = null, date = null, description, info }) {
   const [open, setOpen] = useState(false);
 
   const icons = {
@@ -58,20 +58,23 @@ function Skill({ name, percent, description, info }) {
         title="Click on me!"
       >
         <div className="skill-content">
-          <img src={icons[name.replace(" ", "").toLowerCase()] || icons.csharp} className="skill-img" />
+          {percent && <img src={icons[name.replace(" ", "").toLowerCase()] || icons.csharp} className="skill-img" />}
           <div className="skill-text">
-            <h2 className="skill-name">{name}</h2>
+            <h2 className={`skill-name ${percent == null ? "post-name" : ""}`}>{name}</h2>
+            {date&&<p className="post-date">{date}</p>}
             <p className="skill-status">{description}</p>
           </div>
         </div>
-        <div className="skill-level">
-          <div className="skill-bar">
-            <div className="skill-progress" style={{ width: percent + "%" }}></div>
+        {percent && (
+          <div className="skill-level">
+            <div className="skill-bar">
+              <div className="skill-progress" style={{ width: percent + "%" }}></div>
+            </div>
+            {percent}%
           </div>
-          {percent}%
-        </div>
+        )}
       </div>
-      <AnimatePresence>{open && <InfoModal info={info} setOpen={setOpen} />}</AnimatePresence>
+      <AnimatePresence>{open && <InfoModal info={info} setOpen={setOpen} fromBlog={!percent} />}</AnimatePresence>
     </>
   );
 }

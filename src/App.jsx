@@ -4,7 +4,9 @@ import Projects from "./pages/Projects";
 import Archived from "./pages/Archived";
 import Featured from "./pages/Featured";
 import Skills from "./pages/Skills";
+import Blog from "./pages/Blog";
 import About from "./pages/About";
+import Redirect from "./components/Redirect";
 import Nav from "./components/Nav";
 import Footer from "./components/Footer";
 import ScrollTop from "./components/ScrollTop";
@@ -21,7 +23,9 @@ function App() {
         <Route path="/projects/archived" element={<Archived />} />
         <Route path="/featured" element={<Featured />} />
         <Route path="/skills" element={<Skills />} />
+        <Route path="/blog" element={<Blog />} />
         <Route path="/about" element={<About />} />
+        <Route path=":any" element={<Redirect />} />
       </Routes>
       <Footer />
     </HashRouter>

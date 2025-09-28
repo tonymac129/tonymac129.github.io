@@ -1,0 +1,25 @@
+.post-name {
+    font-size: 20px;
+    height: 55px;
+}
+
+.post-date {
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+
+.blog-link {
+    color: var(--primary-color);
+    text-decoration: none;
+    position: absolute;
+    top: 30px;
+    left: 50px;
+}
+
+.blog-link:hover {
+    text-decoration: underline;
+}
+
+div:has(.blog-link) .modal-title {
+    padding-top: 30px;
+}
