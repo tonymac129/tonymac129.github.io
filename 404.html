@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-VFE9784MB5"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-VFE9784MB5");
+    </script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bruh | TonyMac129</title>
+    <link rel="shortcut icon" href="/src/assets/logo.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/src/index.css" />
+    <style>
+      body {
+        background-color: var(--primary-bg);
+      }
+
+      .error {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 60vh;
+        justify-content: center;
+      }
+
+      .error-heading {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 300px;
+      }
+
+      .error-title {
+        font-size: 250px;
+        text-align: center;
+        color: var(--primary-color);
+        text-shadow: 0px 0px 15px var(--primary-color);
+        z-index: 100;
+      }
+
+      .error-heading img {
+        width: 250px;
+        position: absolute;
+        top: -130px;
+      }
+
+      .error-description {
+        color: var(--secondary-text);
+        font-size: 16px;
+        line-height: 28px;
+        width: 50%;
+        min-width: 500px;
+      }
+
+      .error-link {
+        color: var(--primary-color);
+        text-decoration: none;
+      }
+
+      .error-link:hover {
+        text-decoration: underline;
+        cursor: pointer;
+      }
+
+      .error-links {
+        display: flex;
+        gap: 30px;
+        padding-top: 20px;
+        font-weight: bold;
+        font-size: 20px;
+      }
+
+      ::-webkit-scrollbar {
+        width: 10px;
+      }
+
+      ::-webkit-scrollbar-thumb {
+        background-color: var(--secondary-text);
+        border-radius: 10px;
+        border: 2px solid var(--primary-bg);
+      }
+
+      ::-webkit-scrollbar-thumb:hover {
+        background-color: var(--primary-text);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="error">
+      <div class="error-heading">
+        <h1 class="error-title">404</h1>
+        <img src="/src/assets/lazy.png" />
+      </div>
+      <p class="error-description">
+        <!--TODO: add the 404 game thing-->
+        Uhhh, looks like that page doesn't exist... I'm probably being lazy again and not bothering to finish this duct-taped
+        portfolio site. Or maybe you typed the address wrong. Who knows, just submit an issue
+        <a href="https://github.com/tonymac129/tonymac129.github.io/issues" class="error-link" target="_blank">here</a> if you
+        want to. Meanwhile you can play this game below that doesn't exist and will probably never be added because that's how
+        lazy I am.
+      </p>
+      <div class="error-links">
+        <a href="/" class="error-link">Home</a>
+        <span onclick="back()" class="error-link">Back</span>
+      </div>
+    </div>
+    <script>
+      function back() {
+        window.history.back();
+      }
+    </script>
+  </body>
+</html>
