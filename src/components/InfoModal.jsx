@@ -33,6 +33,9 @@ function InfoModal({ info, setOpen, fromBlog }) {
               </Link>
             )}
             <h2 className="modal-title">{info.title}</h2>
+            <div className="modal-tag" title={"Tag: " + info.tag}>
+              {info.tag}
+            </div>
             <div className="modal-info">
               Updated &nbsp;{info.date} &nbsp;&nbsp; • &nbsp;&nbsp; Published &nbsp;{info.release}
             </div>

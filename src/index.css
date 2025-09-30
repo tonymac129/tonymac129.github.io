@@ -294,8 +294,17 @@ body {
   text-align: center;
 }
 
+.modal-tag {
+  margin-top: 30px;
+  background-color: var(--primary-border);
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-align: center;
+  width: fit-content;
+}
+
 .modal-info {
-  margin-block: 50px 5px;
+  margin-bottom: 5px;
 }
 
 .modal-text {
