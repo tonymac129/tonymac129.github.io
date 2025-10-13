@@ -23,10 +23,10 @@ function About() {
             <div className="statuses">
               <Status
                 action="Developing"
-                name="TonyMac129"
-                link="https://tonymac129.github.io"
-                img="https://avatars.githubusercontent.com/u/141281444?v=4"
-                tag="It's this website btw"
+                name="MacIdeas"
+                link="https://mac-web.github.io/macideas/"
+                img="https://mac-web.github.io/macideas/logo.png"
+                tag="Productivity tasks and notes app"
               />
               <Status
                 action="Watching"
@@ -36,17 +36,17 @@ function About() {
                 tag="One of the highest rated anime"
               />
               <Status
+                action="Watching"
+                name="Stranger Things"
+                link="https://www.imdb.com/title/tt4574334/"
+                img="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQEPoq9abrTDIZOYRup-2DDHa_qGT1oqr0e1s3Ls3SjXbrlYDc1Nm6pPtx3GN23_UXkbZ9sHw"
+                tag="New season's coming out in a month"
+              />
+              <Status
                 action="Reading"
                 name="Harry Potter and the Sorcerer's Stone"
                 link="https://en.wikipedia.org/wiki/Harry_Potter_and_the_Philosopher%27s_Stone"
                 img="https://m.media-amazon.com/images/I/81DI+BAN2SL._UF1000,1000_QL80_.jpg"
-              />
-              <Status
-                action="Reading"
-                name="Fahrenheit 451"
-                tag="School assignment 😭"
-                link="https://en.wikipedia.org/wiki/Fahrenheit_451"
-                img="https://m.media-amazon.com/images/I/61sKsbPb5GL._UF1000,1000_QL80_.jpg"
               />
             </div>
           </div>
