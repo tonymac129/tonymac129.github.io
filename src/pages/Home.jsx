@@ -144,7 +144,7 @@ function Home() {
               <p className="section-img-caption">I go to a "smart" high school for students who love STEM 🧠</p>
             </div>
             <div className="section-content">
-              <h2 className="section-title">Yes, I'm a nerd, but a cool one 🙃</h2>
+              <h2 className="section-title">And I do other stuff too</h2>
               <div className="section-description">
                 Sure, I'm already learning calculus, have a passion for STEM, had the highest GPA in my middle school, and I'm
                 trying my hardest to get in MIT, but I'm not the tryhard you're probably picturing in your mind right now (or am

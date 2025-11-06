@@ -23,17 +23,17 @@ function About() {
             <div className="statuses">
               <Status
                 action="Developing"
-                name="MacIdeas"
-                link="https://mac-web.github.io/macideas/"
-                img="https://mac-web.github.io/macideas/logo.png"
-                tag="Productivity tasks and notes app"
+                name="Sodia"
+                link="https://sodia-33dm.onrender.com/"
+                img=""
+                tag="Full stack social media app built with MERN"
               />
               <Status
                 action="Watching"
-                name="Attack on Titan"
-                link="https://www.imdb.com/title/tt2560140/"
-                img="https://m.media-amazon.com/images/M/MV5BZjliODY5MzQtMmViZC00MTZmLWFhMWMtMjMwM2I3OGY1MTRiXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
-                tag="One of the highest rated anime"
+                name="Chainsaw Man"
+                link="https://www.imdb.com/title/tt13616990/"
+                img="https://m.media-amazon.com/images/M/MV5BZGY2ZTM2MWMtNzA2OS00ZjJlLWIwZTMtMDBhN2EwYjZjZjEyXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+                tag="Actually so peak can't wait for the movie"
               />
               <Status
                 action="Watching"
@@ -44,10 +44,19 @@ function About() {
               />
               <Status
                 action="Reading"
-                name="Harry Potter and the Sorcerer's Stone"
-                link="https://en.wikipedia.org/wiki/Harry_Potter_and_the_Philosopher%27s_Stone"
-                img="https://m.media-amazon.com/images/I/81DI+BAN2SL._UF1000,1000_QL80_.jpg"
+                name="Harry Potter and the Chamber of Secrets"
+                link="https://en.wikipedia.org/wiki/Harry_Potter_and_the_Chamber_of_Secrets"
+                img="https://upload.wikimedia.org/wikipedia/en/thumb/5/5c/Harry_Potter_and_the_Chamber_of_Secrets.jpg/250px-Harry_Potter_and_the_Chamber_of_Secrets.jpg"
+                tag="First time reading the series"
               />
+              <Status
+                action="Reading"
+                name="Strange Case of Dr. Jekyll and Mr. Hyde"
+                link="https://en.wikipedia.org/wiki/Strange_Case_of_Dr_Jekyll_and_Mr_Hyde"
+                img="https://m.media-amazon.com/images/I/81w6V7HaRuS._AC_UF1000,1000_QL80_.jpg"
+                tag="English homework 🥀"
+              />
+              <div className="status-message">Status last udpated 11/5/25</div>
             </div>
           </div>
           <div className="about-content">
@@ -112,6 +121,12 @@ function About() {
             link="https://www.google.com/chromebook/"
           />
           <Favorite
+            name="CMF Buds Pro 2"
+            description="Got it for free from Hack Club, absolutely amazing"
+            img="https://www.classic-phones.com/cdn/shop/files/CMF-By-Nothing-Buds-Pro-2-blk.jpg?v=1749844355&width=1028"
+            link="https://us.nothing.tech/products/cmf-buds-pro-2"
+          />
+          <Favorite
             name="Visual Studio Code"
             description="The best web dev code editor"
             img="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/2048px-Visual_Studio_Code_1.35_icon.svg.png"
@@ -134,12 +149,6 @@ function About() {
             description="Too lazy to Google stuff and has coding skill issues"
             img="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/ChatGPT-Logo.svg/250px-ChatGPT-Logo.svg.png"
             link="https://chatgpt.com"
-          />
-          <Favorite
-            name="GitHub Pages"
-            description="Can't afford real web hosting apps"
-            img="https://yt3.googleusercontent.com/PKRBxhCiGa8Y0vPmHa1E2cdjpLhUq2Pl-gESwP7kk2plGgxLdsbjyTd9VjcJwBMiY0HQ8bvx5Q=s900-c-k-c0x00ffffff-no-rj"
-            link="https://pages.github.com"
           />
         </div>
         <h2 className="about-title">Things I Like</h2>
@@ -251,7 +260,7 @@ function About() {
           />
           <Favorite
             name="Brawl Stars"
-            description={'Clash is NOT better bro ⭐🔛🔝 (61k trophies)'}
+            description={'Clash is NOT better bro ⭐🔛🔝 (65k trophies)'}
             img="https://i.scdn.co/image/ab6761610000e5ebf7b952107c126c561c52171e"
           />
           <Favorite
