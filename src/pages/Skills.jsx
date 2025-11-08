@@ -116,7 +116,12 @@ function Skills() {
         <div className="skills">
           {display.map((skill) => {
             return (
-              <Skill name={skill.name} percent={skill.percent} description={skill.description} info={infoData.posts[skill.id]} />
+              <Skill
+                name={skill.name}
+                percent={skill.percent}
+                description={skill.description}
+                info={infoData.posts.filter((post) => post.tag === "skill")[skill.id]}
+              />
             );
           })}
         </div>

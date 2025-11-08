@@ -84,7 +84,7 @@ function Nav() {
               {display.slice(0, 5).map((item) => {
                 return (
                   <div
-                    onClick={() => window.open(item.link || item.tag == "skill" ? "/#/skills" : "/#/blog", "_blank")}
+                    onClick={() => window.open(item.link ? item.link : item.tag == "skill" ? "/#/skills" : "/#/blog", "_blank")}
                     target="_blank"
                     className="nav-search-result"
                   >
