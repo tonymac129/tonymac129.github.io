@@ -99,7 +99,7 @@ function Featured() {
               </div>
             </div>
             <div className="section-imgs">
-              <SectionImg src="https://tonymac129.github.io/logo.png" title="Lightning" single={true} />
+              <SectionImg src="https://tonymac129.github.io/lightning/logo.png" title="Lightning" single={true} />
               <p className="section-img-caption">I've had this idea for a long time but never coded it.</p>
             </div>
           </motion.div>
@@ -141,43 +141,6 @@ function Featured() {
             className="section"
           >
             <div className="section-content">
-              <h2 className="section-title">Viberverse</h2>
-              <div className="featured-section-imgs">
-                <SectionImg src={html} title="HTML" />
-                <SectionImg src={css} title="CSS" />
-                <SectionImg src={js} title="JavaScript" />
-              </div>
-              <div className="section-description">
-                Viberverse is the best unblocked website that cures your boredom at school! There's a wide selection of games and
-                proxies for students to enjoy. The website also has countless features like chat, tab cloaking, panic button,
-                themes, and more! I made this for my peers at school to enjoy in September 2024 because MacVG got blocked, but
-                lost interest and stopped updating/maintaining it in November 2024, which is why Viberverse is still partially
-                unfinished.
-              </div>
-              <div className="section-btns">
-                <Btn link="https://viberverse.github.io" blank={true} text="Take me there" primary={true} />
-              </div>
-            </div>
-            <div className="section-imgs">
-              <SectionImg src="https://viberverse.github.io/media/logo.png" title="Viberverse" single={true} />
-              <p className="section-img-caption">One of the best logos I've ever designed.</p>
-            </div>
-          </motion.div>
-
-          <motion.div
-            initial={{ y: 150, opacity: 0 }}
-            whileInView={{ y: 0, opacity: 1 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6, type: "spring" }}
-            className="section"
-          >
-            <div className="section-imgs">
-              <SectionImg src="https://thelunarlions.github.io/favicon.png" title="Lunar Lions" single={true} />
-              <p className="section-img-caption">
-                The logo has a moon rocket with a lion paw on it, perfectly incorporating the project's elements.
-              </p>
-            </div>
-            <div className="section-content">
               <h2 className="section-title">Lunar Lions</h2>
               <div className="featured-section-imgs">
                 <SectionImg src={csharp} title="C#" />
@@ -198,34 +161,11 @@ function Featured() {
                 <Btn link="https://thelunarlions.github.io" blank={true} text="Check it out" primary={true} />
               </div>
             </div>
-          </motion.div>
-          <motion.div
-            initial={{ y: 150, opacity: 0 }}
-            whileInView={{ y: 0, opacity: 1 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6, type: "spring" }}
-            className="section"
-          >
-            <div className="section-content">
-              <h2 className="section-title">StemGames</h2>
-              <div className="featured-section-imgs">
-                <SectionImg src={html} title="HTML" />
-                <SectionImg src={css} title="CSS" />
-                <SectionImg src={js} title="JavaScript" />
-              </div>
-              <div className="section-description">
-                I was constantly bored in middle school, so here we are, yet another unblocked game site made by me. StemGames was
-                a very well-received discontinued game site for school and it was basically a copy of MacVG but with different UI
-                and components. It was very popular at school and when I removed it everyone was pretty mad. I still have an
-                archived copy of it linked below but it no longer works properly.
-              </div>
-              <div className="section-btns">
-                <Btn link="https://tonymac129.github.io/stemgames/" blank={true} text="View site" primary={true} />
-              </div>
-            </div>
             <div className="section-imgs">
-              <SectionImg src="https://tonymac129.github.io/stemgames/logo.png" title="StemGames" single={true} />
-              <p className="section-img-caption">This is not fooling anyone as a STEM educational site.</p>
+              <SectionImg src="https://thelunarlions.github.io/favicon.png" title="Lunar Lions" single={true} />
+              <p className="section-img-caption">
+                The logo has a moon rocket with a lion paw on it, perfectly incorporating the project's elements.
+              </p>
             </div>
           </motion.div>
         </div>

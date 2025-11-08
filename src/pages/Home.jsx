@@ -1,5 +1,22 @@
 import { motion } from "framer-motion";
-import { logo, cli, csharp, css, html, js, python, java, react, unity, minecraft, stem, basketballh } from "../assets/assets";
+import {
+  logo,
+  cli,
+  csharp,
+  css,
+  html,
+  js,
+  python,
+  java,
+  react,
+  unity,
+  minecraft,
+  stem,
+  basketballh,
+  mongodb,
+  node,
+  express,
+} from "../assets/assets";
 import "./Home.css";
 import Btn from "../components/Btn";
 import SectionImg from "../components/SectionImg";
@@ -49,6 +66,9 @@ function Home() {
               <SectionImg src={css} title="CSS" />
               <SectionImg src={js} title="JavaScript" />
               <SectionImg src={react} title="React" />
+              <SectionImg src={mongodb} title="React" />
+              <SectionImg src={node} title="React" />
+              <SectionImg src={express} title="React" />
               <SectionImg src={cli} title="Command Line Interface" />
               <SectionImg src={python} title="Python" />
               <SectionImg src={java} title="Java" />
@@ -67,7 +87,8 @@ function Home() {
                   VS Code
                 </a>{" "}
                 and CLI) to develop front-end web apps and websites, and you can see all the projects I worked on since 2022 when
-                I started displayed here on my personal website.{" "}
+                I started displayed here on my personal website. Right now, I'm learning full stack development with the MERN
+                stack to make my products more interactive and functional.{" "}
                 <a href="https://mac-web.github.io" target="_blank">
                   MacWeb
                 </a>{" "}

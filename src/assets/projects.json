@@ -362,9 +362,9 @@
     },
     {
       "id": 45,
-      "name": "ECS Bell Bot Site",
+      "name": "Project Bellbot",
       "description": "I made a website documenting an auto bell ringing robot for NVAECS programmed in Java that my friend made.",
-      "link": "https://tonymac129.github.io/ecs-bell-bot-site/",
+      "link": "https://tonymac129.github.io/project-bellbot/",
       "tags": ["Web App", "Aug 2025"],
       "skills": ["React", "Java"]
     },
@@ -375,6 +375,30 @@
       "link": "https://tonymac129.github.io/67/",
       "tags": ["Web App", "Sep 2025"],
       "skills": ["React"]
+    },
+    {
+      "id": 47,
+      "name": "StemGames",
+      "description": "A popular discontinued game site for school and was basically a copy of MacVG but with different UI",
+      "link": "https://tonymac129.github.io/stemgames/",
+      "tags": ["Web App", "Jan 2024"],
+      "skills": ["HTML", "CSS", "JS"]
+    },
+    {
+      "id": 48,
+      "name": "Viberverse",
+      "description": "Another popular discontinued game site made for school with a lot of games and features.",
+      "link": "https://viberverse.github.io/",
+      "tags": ["Web App", "Oct 2024"],
+      "skills": ["HTML", "CSS", "JS"]
+    },
+    {
+      "id": 49,
+      "name": "Thinkboard",
+      "description": "My first full stack app built with MERN where users can create and manage public notes!",
+      "link": "https://thinkboard-y18u.onrender.com/",
+      "tags": ["Learning", "Full Stack", "Oct 2025"],
+      "skills": ["MongoDB", "Express", "React", "Node"]
     }
   ]
 }

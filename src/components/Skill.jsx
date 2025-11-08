@@ -7,6 +7,9 @@ import {
   python,
   csharp,
   unity,
+  mongodb,
+  node,
+  express,
   webdesign,
   cli,
   typing,
@@ -38,6 +41,9 @@ function Skill({ name, percent = null, date = null, description, info }) {
     chinese,
     diabolo,
     cubing,
+    node,
+    mongodb,
+    express,
   };
 
   useEffect(() => {
@@ -61,7 +67,7 @@ function Skill({ name, percent = null, date = null, description, info }) {
           {percent && <img src={icons[name.replace(" ", "").toLowerCase()] || icons.csharp} className="skill-img" />}
           <div className="skill-text">
             <h2 className={`skill-name ${percent == null ? "post-name" : ""}`}>{name}</h2>
-            {date&&<p className="post-date">{date}</p>}
+            {date && <p className="post-date">{date}</p>}
             <p className="skill-status">{description}</p>
           </div>
         </div>

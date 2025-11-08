@@ -1,6 +1,22 @@
 import { useState, useEffect } from "react";
 import Project from "../components/Project";
-import { projectData, gallery, grid, cli, csharp, css, html, js, java, python, react, unity } from "../assets/assets";
+import {
+  projectData,
+  gallery,
+  grid,
+  cli,
+  csharp,
+  css,
+  html,
+  js,
+  java,
+  python,
+  react,
+  unity,
+  mongodb,
+  express,
+  node,
+} from "../assets/assets";
 import { motion, AnimatePresence } from "framer-motion";
 import "./Project.css";
 import { Link } from "react-router";
@@ -16,7 +32,7 @@ function Projects() {
   const [display, setDisplay] = useState(projectData.projects);
   const length = projectData.projects.length;
   const project = projectData.projects[length - 1 - projectID];
-  const icons = { cli, csharp, css, html, js, java, python, react, unity };
+  const icons = { cli, csharp, css, html, js, java, python, react, unity, mongodb, express, node };
 
   useEffect(() => handleSort("recent"), []);
 

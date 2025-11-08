@@ -34,6 +34,9 @@ import close from "./icons/close.svg";
 import lazy from "./lazy.png";
 import dark from "./icons/dark.svg";
 import light from "./icons/light.svg";
+import node from "./icons/node.svg";
+import express from "./icons/express.png";
+import mongodb from "./icons/mongodb.png";
 import projectData from "./projects.json";
 import infoData from "./info.json";
 
@@ -74,6 +77,9 @@ export {
   lazy,
   dark,
   light,
+  node,
+  express,
+  mongodb,
   projectData,
   infoData,
 };
