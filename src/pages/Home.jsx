@@ -66,9 +66,9 @@ function Home() {
               <SectionImg src={css} title="CSS" />
               <SectionImg src={js} title="JavaScript" />
               <SectionImg src={react} title="React" />
-              <SectionImg src={mongodb} title="React" />
-              <SectionImg src={node} title="React" />
-              <SectionImg src={express} title="React" />
+              <SectionImg src={mongodb} title="MongoDB" />
+              <SectionImg src={node} title="Node.js" />
+              <SectionImg src={express} title="Express" />
               <SectionImg src={cli} title="Command Line Interface" />
               <SectionImg src={python} title="Python" />
               <SectionImg src={java} title="Java" />
