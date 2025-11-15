@@ -30,10 +30,10 @@ function About() {
               />
               <Status
                 action="Watching"
-                name="Chainsaw Man"
-                link="https://www.imdb.com/title/tt13616990/"
-                img="https://m.media-amazon.com/images/M/MV5BZGY2ZTM2MWMtNzA2OS00ZjJlLWIwZTMtMDBhN2EwYjZjZjEyXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
-                tag="Actually so peak can't wait for the movie"
+                name="Jujutsu Kaisen"
+                link="https://www.imdb.com/title/tt12343534/"
+                img="https://m.media-amazon.com/images/I/7161lLGp87L._AC_UF894,1000_QL80_.jpg"
+                tag="Holy peak peak peak 👉🏔️"
               />
               <Status
                 action="Watching"
@@ -49,14 +49,7 @@ function About() {
                 img="https://upload.wikimedia.org/wikipedia/en/thumb/5/5c/Harry_Potter_and_the_Chamber_of_Secrets.jpg/250px-Harry_Potter_and_the_Chamber_of_Secrets.jpg"
                 tag="First time reading the series"
               />
-              <Status
-                action="Reading"
-                name="Strange Case of Dr. Jekyll and Mr. Hyde"
-                link="https://en.wikipedia.org/wiki/Strange_Case_of_Dr_Jekyll_and_Mr_Hyde"
-                img="https://m.media-amazon.com/images/I/81w6V7HaRuS._AC_UF1000,1000_QL80_.jpg"
-                tag="English homework 🥀"
-              />
-              <div className="status-message">Status last udpated 11/5/25</div>
+              <div className="status-message">Status last udpated 11/14/25</div>
             </div>
           </div>
           <div className="about-content">
@@ -173,9 +166,15 @@ function About() {
           />
           <Favorite
             name="Frieren"
-            description={'"Aura, kill yourself" (lowk smash tho 😏)'}
+            description={'"Aura, kill yourself" (lowk smash tho 😉)'}
             img="https://m.media-amazon.com/images/M/MV5BZTI4ZGMxN2UtODlkYS00MTBjLWE1YzctYzc3NDViMGI0ZmJmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
             link="https://www.imdb.com/title/tt22248376/"
+          />
+          <Favorite
+            name="Chainsaw Man"
+            description={'WE are all cracking Power 😏'}
+            img="https://m.media-amazon.com/images/I/81iZCUeRLXL._AC_UF894,1000_QL80_.jpg"
+            link="https://www.imdb.com/title/tt13616990/"
           />
           <Favorite
             name="Lord of the Rings Books"
