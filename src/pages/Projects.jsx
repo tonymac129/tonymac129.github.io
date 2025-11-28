@@ -89,8 +89,8 @@ function Projects() {
           <>
             The coding projects showcased here are ones I've put some effort into, for simple or unfinished learning pages, and
             non-coding projects, view the{" "}
-            <Link to="/projects/archived" className="project-link">
-              Archived
+            <Link to="/misc" className="project-link">
+              Misc
             </Link>{" "}
             page.
           </>

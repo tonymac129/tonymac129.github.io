@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive Input</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="input hide" id="input">
+        <div class="input-label">Cool input</div>
+        <input type="text" />
+      </div>
+      <button class="action-btn" id="action-btn">Toggle input</button>
+      <label class="color">
+        Color:
+        <div id="color-value" class="color-value">hsl(200,100%,50%)</div>
+        <input type="range" value="55" id="color-slider" />
+      </label>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

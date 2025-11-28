@@ -1,12 +1,12 @@
 import { Link } from "react-router";
-import { logo, dark, light, projectData, infoData } from "../assets/assets";
+import { logo, dark, light, projectData, infoData, miscData } from "../assets/assets";
 import { useState, useEffect, useRef } from "react";
 import { motion } from "framer-motion";
 
 function Nav() {
   const [mode, setMode] = useState(JSON.parse(localStorage.getItem("tonymac129-mode")) || false);
   const [search, setSearch] = useState("");
-  const all = [...projectData.projects, ...infoData.posts];
+  const all = [...projectData.projects, ...infoData.posts, ...miscData.projects];
   const [display, setDisplay] = useState(all);
   const [searching, setSearching] = useState(false);
   const searchRef = useRef();

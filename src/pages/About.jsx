@@ -40,7 +40,7 @@ function About() {
                 name="Stranger Things"
                 link="https://www.imdb.com/title/tt4574334/"
                 img="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQEPoq9abrTDIZOYRup-2DDHa_qGT1oqr0e1s3Ls3SjXbrlYDc1Nm6pPtx3GN23_UXkbZ9sHw"
-                tag="New season's coming out in a month"
+                tag="New season!1!1!"
               />
               <Status
                 action="Reading"

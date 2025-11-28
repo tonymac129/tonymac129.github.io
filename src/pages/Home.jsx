@@ -21,6 +21,23 @@ import "./Home.css";
 import Btn from "../components/Btn";
 import SectionImg from "../components/SectionImg";
 
+const titles = [
+  "Yo, what's up?",
+  "Greetings, fellow human being",
+  "Yo!",
+  "Hi 👋",
+  "Hello 👋",
+  "Welcome to my internet estate!",
+  "Wait, how did you get here?",
+  "This is my portfolio website btw",
+  "Can't think of new random titles",
+  "100% human written code",
+  "I swear this looked cooler in my head",
+  "67% of the time, this site works 100% of the time",
+  "*insert catchy title here*",
+  "ummmm",
+];
+
 function Home() {
   return (
     <motion.div initial={{ y: 200, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 0.6, type: "spring" }}>
@@ -28,10 +45,10 @@ function Home() {
       <div className="content">
         <div className="home">
           <div className="home-content">
-            <h1 className="home-title">Welcome to my corner of the internet!</h1>
+            <h1 className="home-title">{titles[Math.floor(Math.random() * titles.length)]}</h1>
             <p className="section-description">
-              I am Tony Macaroni (that's not my last name lol), a 14 years old React front-end developer based in northern
-              Virginia, USA. I'm a high school freshman studying STEM and computer science at{" "}
+              I am Tony Macaroni, a 14 year old React front-end developer based in northern Virginia, USA. I'm a high school
+              freshman studying STEM and computer science at{" "}
               <a href="https://tjhsst.fcps.edu/" target="_blank">
                 TJHSST
               </a>
@@ -39,8 +56,12 @@ function Home() {
               <a href="https://mac-web.github.io" target="_blank">
                 MacWeb
               </a>
-              , an online platform for gaming and learning web development. You can find all sorts of interesting things I made
-              here, along with my skillset, school projects, and almost everything else about me!
+              , an online platform for gaming and learning web development. I'm a member of{" "}
+              <a href="https://hackclub.com" target="_blank">
+                Hack Club
+              </a>
+              , an amazing community of teenage developers that hosts many events. You can find all sorts of interesting things I
+              made here, along with my skillset, school projects, and almost everything else about me!
             </p>
             <div className="section-btns">
               <Btn link="/featured" text="Featured apps" primary={true} />
@@ -50,7 +71,7 @@ function Home() {
           </div>
           <div className="home-img">
             <img src={logo} />
-            <p className="section-img-caption">ChatGPT, how many times do I have to tell you, I don't look that serious bro 🙄</p>
+            <p className="section-img-caption">Did you know the site randomly generates a greeting title when you visit?</p>
           </div>
         </div>
         <div className="sections">
@@ -87,8 +108,8 @@ function Home() {
                   VS Code
                 </a>{" "}
                 and CLI) to develop front-end web apps and websites, and you can see all the projects I worked on since 2022 when
-                I started displayed here on my personal website. Right now, I'm learning full stack development with the MERN
-                stack to make my products more interactive and functional.{" "}
+                I started coding displayed here on my personal website. Right now, I'm learning full stack development with the
+                MERN stack to make my products more interactive and functional.{" "}
                 <a href="https://mac-web.github.io" target="_blank">
                   MacWeb
                 </a>{" "}
@@ -126,8 +147,7 @@ function Home() {
             <div className="section-content">
               <h2 className="section-title">...but I'm also enjoying life</h2>
               <div className="section-description">
-                I enjoy watching animations such as Gravity Falls and Demon Slayer, franchises like Marvel and Star Wars, and
-                popular sci-fi shows and movies. I'm also a{" "}
+                I enjoy watching anime, cartoons, franchises like Marvel, and popular sci-fi shows and movies. I'm also a{" "}
                 <a href="https://supercell.com/en/games/brawlstars/" target="_blank">
                   Brawl Stars
                 </a>{" "}
@@ -141,7 +161,7 @@ function Home() {
                 <a href="https://www.nvaecs.org/en/index.php" target="_blank">
                   Chinese school
                 </a>
-                , playing basketball, or hiking in the mountains.
+                , playing basketball, or... procrastinating.
               </div>
               <div className="section-btns">
                 <Btn link="/about" text="More about me" primary={true} />
@@ -165,12 +185,12 @@ function Home() {
               <p className="section-img-caption">I go to a "smart" high school for students who love STEM 🧠</p>
             </div>
             <div className="section-content">
-              <h2 className="section-title">And I do other stuff too</h2>
+              <h2 className="section-title">I do other stuff too</h2>
               <div className="section-description">
                 Sure, I'm already learning calculus, have a passion for STEM, had the highest GPA in my middle school, and I'm
                 trying my hardest to get in MIT, but I'm not the tryhard you're probably picturing in your mind right now (or am
-                I?). I procrastinate 24/7, often play basketball with my friends, hang out with them and play different games
-                together, and travel to different places during summer.
+                I?). I procrastinate 24/7, play basketball with my friends, play different games with them, and travel to
+                different places during summer.
               </div>
               <div className="section-btns">
                 <Btn link="/blog" text="Read my blog" primary={true} />

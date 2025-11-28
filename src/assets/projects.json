@@ -9,30 +9,6 @@
       "skills": ["HTML", "CSS"]
     },
     {
-      "id": 1,
-      "name": "Text Animation",
-      "description": "A basic CSS-only text animation I made following a YouTube tutorial involving text stroke.",
-      "link": "/projects/text-animation/index.html",
-      "tags": ["Learning", "Animation", "Jan 2023"],
-      "skills": ["HTML", "CSS"]
-    },
-    {
-      "id": 2,
-      "name": "Animated Input",
-      "description": "A pure CSS interactive input field animation I made following a YouTube tutorial.",
-      "link": "/projects/animated-input/index.html",
-      "tags": ["Learning", "Animation", "Jan 2023"],
-      "skills": ["HTML", "CSS"]
-    },
-    {
-      "id": 3,
-      "name": "Animated Text",
-      "description": "A smooth animation where a text section fades in on scroll, made using a YouTube tutorial.",
-      "link": "/projects/animated-text/index.html",
-      "tags": ["Learning", "Animation", "Jan 2023"],
-      "skills": ["HTML", "CSS", "JS"]
-    },
-    {
       "id": 4,
       "name": "Countdown",
       "description": "A (not very accurate) simple countdown web app with JS Date() object, made using a YouTube tutorial.",
@@ -49,51 +25,11 @@
       "skills": ["HTML", "CSS", "JS"]
     },
     {
-      "id": 6,
-      "name": "Quadratic Calculator",
-      "description": "Made this JS project so I don't have to remember the quadratic formula >:)",
-      "link": "/projects/quadratic-calculator/index.html",
-      "tags": ["Learning", "Feb 2023"],
-      "skills": ["HTML", "CSS", "JS"]
-    },
-    {
-      "id": 7,
-      "name": "Geometric Calculator",
-      "description": "Made this JS project to help calculating but mostly cheating in math >:)",
-      "link": "/projects/geometric-sequences/index.html",
-      "tags": ["Learning", "Feb 2023"],
-      "skills": ["HTML", "CSS", "JS"]
-    },
-    {
-      "id": 8,
-      "name": "Image Slider",
-      "description": "An image sliding app completely copied off a YouTube video.",
-      "link": "/projects/image-slider/index.html",
-      "tags": ["Learning", "Feb 2023"],
-      "skills": ["HTML", "CSS", "JS"]
-    },
-    {
-      "id": 9,
-      "name": "Moon Animation",
-      "description": "A mini animation player of different phases of the moon with speed controls.",
-      "link": "/projects/moon-phases/index.html",
-      "tags": ["Fun", "Jun 2023"],
-      "skills": ["HTML", "CSS", "JS"]
-    },
-    {
       "id": 10,
       "name": "MacText",
       "description": "A little text formatter using JS string manipulation with many options and features.",
       "link": "/projects/mactext/index.html",
       "tags": ["Web App", "Oct 2023"],
-      "skills": ["HTML", "CSS", "JS"]
-    },
-    {
-      "id": 11,
-      "name": "Movable Element",
-      "description": "A movable/draggable element using JS for a MacVG feature.",
-      "link": "/projects/movable-element/index.html",
-      "tags": ["Learning", "MacWeb", "Nov 2023"],
       "skills": ["HTML", "CSS", "JS"]
     },
     {
@@ -105,35 +41,11 @@
       "skills": ["HTML", "CSS"]
     },
     {
-      "id": 13,
-      "name": "Custom Context Menu",
-      "description": "A simple custom right click context menu with different features made with JS.",
-      "link": "/projects/custom-menu/index.html",
-      "tags": ["Learning", "Dec 2023"],
-      "skills": ["HTML", "CSS", "JS"]
-    },
-    {
-      "id": 14,
-      "name": "Screenshot",
-      "description": "A screenshot app that captures the webpage and downloads using the JS library html2canvas.",
-      "link": "/projects/screenshot/index.html",
-      "tags": ["Learning", "Library", "Jan 2024"],
-      "skills": ["HTML", "CSS", "JS"]
-    },
-    {
       "id": 15,
       "name": "Google Redesign",
       "description": "I remade the tech giant's search home page to make it more intuitive and friendly.",
       "link": "/projects/google/index.html",
       "tags": ["Design", "Jan 2024"],
-      "skills": ["HTML", "CSS", "JS"]
-    },
-    {
-      "id": 16,
-      "name": "Text Goofifier",
-      "description": "This app makes the text you paste in look goofy.",
-      "link": "/projects/text-modifier/index.html",
-      "tags": ["Learning", "Feb 2024"],
       "skills": ["HTML", "CSS", "JS"]
     },
     {
@@ -150,22 +62,6 @@
       "description": "I built the classic beginner weather forecast project with OpenWeatherMap's API.",
       "link": "/projects/weatherboard/index.html",
       "tags": ["Web App", "May 2024"],
-      "skills": ["HTML", "CSS", "JS"]
-    },
-    {
-      "id": 19,
-      "name": "CodeLabs",
-      "description": "A simple code playgorund sandbox for web development that updates in real time.",
-      "link": "/projects/code-lab/index.html",
-      "tags": ["Web App", "Jun 2024"],
-      "skills": ["HTML", "CSS", "JS"]
-    },
-    {
-      "id": 20,
-      "name": "Filtering",
-      "description": "A JS array manipulation learning project with sorting and filtering features for a list of items.",
-      "link": "/projects/filter/index.html",
-      "tags": ["Learning", "Jun 2024"],
       "skills": ["HTML", "CSS", "JS"]
     },
     {
@@ -193,22 +89,6 @@
       "skills": ["HTML", "CSS", "JS"]
     },
     {
-      "id": 24,
-      "name": "Wave Visualizer",
-      "description": "A little tool that lets you visualize data as waves.",
-      "link": "/projects/wave-visualizer/index.html",
-      "tags": ["Learning", "Sep 2024"],
-      "skills": ["HTML", "CSS", "JS"]
-    },
-    {
-      "id": 25,
-      "name": "Jokepedia",
-      "description": "A random joke generator made using JokeAPI.",
-      "link": "/projects/jokepedia/index.html",
-      "tags": ["Web App", "Sep 2024"],
-      "skills": ["HTML", "CSS", "JS"]
-    },
-    {
       "id": 26,
       "name": "Caesar Cipher Encoder",
       "description": "I made a tool that encodes messages using Caesar Cipher.",
@@ -229,14 +109,6 @@
       "name": "Vigenere Cipher Tool",
       "description": "This app can encrypt and decrypt Vigenere Ciphers.",
       "link": "/projects/vigenere-cipher/index.html",
-      "tags": ["Web App", "Nov 2024"],
-      "skills": ["HTML", "CSS", "JS"]
-    },
-    {
-      "id": 29,
-      "name": "Atbash Cipher Tool",
-      "description": "This app can encrypt and decrypt Atbash ciphers.",
-      "link": "/projects/atbash-cipher/index.html",
       "tags": ["Web App", "Nov 2024"],
       "skills": ["HTML", "CSS", "JS"]
     },
@@ -265,42 +137,10 @@
       "skills": ["HTML", "CSS", "JS"]
     },
     {
-      "id": 33,
-      "name": "Sodia",
-      "description": "Mock-up design of what social media should be.",
-      "link": "/projects/sodia/index.html",
-      "tags": ["Design", "Jan 2025"],
-      "skills": ["HTML", "CSS"]
-    },
-    {
-      "id": 34,
-      "name": "React Stopwatch",
-      "description": "My first ever beginner React app from a YouTube tutorial.",
-      "link": "https://tonysreactstopwatch.netlify.app",
-      "tags": ["Learning", "Jan 2025"],
-      "skills": ["React"]
-    },
-    {
-      "id": 35,
-      "name": "Gen Alpha Store",
-      "description": "I chose to make a brainrot website for my first React Router project 🫠",
-      "link": "https://gen-alpha-store.netlify.app",
-      "tags": ["Learning", "Library", "Jan 2025"],
-      "skills": ["React"]
-    },
-    {
       "id": 36,
       "name": "Money Tracker",
       "description": "Simple app that tracks your transactions and balance.",
       "link": "https://tonymac129.github.io/money-tracker/",
-      "tags": ["Web App", "Feb 2025"],
-      "skills": ["HTML", "CSS", "JS"]
-    },
-    {
-      "id": 37,
-      "name": "Polygon Calculator",
-      "description": "Calculator for a polygon's angle measures.",
-      "link": "/projects/polygon-calculator/index.html",
       "tags": ["Web App", "Feb 2025"],
       "skills": ["HTML", "CSS", "JS"]
     },
@@ -329,22 +169,6 @@
       "skills": ["HTML", "CSS", "JS"]
     },
     {
-      "id": 41,
-      "name": "ProComp",
-      "description": "A mocking mock-up of a professional company's website.",
-      "link": "/projects/pro-comp/index.html",
-      "tags": ["Design", "May 2025"],
-      "skills": ["HTML", "CSS"]
-    },
-    {
-      "id": 42,
-      "name": "Framer Motion Animations",
-      "description": "I followed a YouTube tutorial to learn Framer Motion for the first time and made some animations to apply what I'd learned.",
-      "link": "/projects/framer-motion/index.html",
-      "tags": ["Learning", "Animation", "Library", "Jun 2025"],
-      "skills": ["React"]
-    },
-    {
       "id": 43,
       "name": "Stolen Car",
       "description": "I made a website for my friends' film production studio, Stolen Car Productions, to display their films and related information.",
@@ -367,14 +191,6 @@
       "link": "https://tonymac129.github.io/project-bellbot/",
       "tags": ["Web App", "Aug 2025"],
       "skills": ["React", "Java"]
-    },
-    {
-      "id": 46,
-      "name": "67 Site",
-      "description": "What do you get when you put the 67 meme with a high school dev? A complete web archive of 67 with everything about it.",
-      "link": "https://tonymac129.github.io/67/",
-      "tags": ["Web App", "Sep 2025"],
-      "skills": ["React"]
     },
     {
       "id": 47,

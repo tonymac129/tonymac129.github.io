@@ -38,6 +38,7 @@ import node from "./icons/node.svg";
 import express from "./icons/express.png";
 import mongodb from "./icons/mongodb.png";
 import projectData from "./projects.json";
+import miscData from "./misc.json";
 import infoData from "./info.json";
 
 export {
@@ -81,5 +82,6 @@ export {
   express,
   mongodb,
   projectData,
+  miscData,
   infoData,
 };

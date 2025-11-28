@@ -1,0 +1,615 @@
+{
+  "projects": [
+    {
+      "id": 2,
+      "name": "Animated Input",
+      "description": "A pure CSS interactive input field animation I made following a YouTube tutorial.",
+      "link": "/misc/animated-input/index.html",
+      "tags": [
+        "Learning",
+        "Animation",
+        "Jan 2023"
+      ],
+      "skills": [
+        "HTML",
+        "CSS"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Animated Text",
+      "description": "A smooth animation where a text section fades in on scroll, made using a YouTube tutorial.",
+      "link": "/misc/animated-text/index.html",
+      "tags": [
+        "Learning",
+        "Animation",
+        "Jan 2023"
+      ],
+      "skills": [
+        "HTML",
+        "CSS",
+        "JS"
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Custom Context Menu",
+      "description": "A simple custom right click context menu with different features made with JS.",
+      "link": "/misc/custom-menu/index.html",
+      "tags": [
+        "Learning",
+        "Dec 2023"
+      ],
+      "skills": [
+        "HTML",
+        "CSS",
+        "JS"
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Filtering",
+      "description": "A JS array manipulation learning project with sorting and filtering features for a list of items.",
+      "link": "/misc/filter/index.html",
+      "tags": [
+        "Learning",
+        "Jun 2024"
+      ],
+      "skills": [
+        "HTML",
+        "CSS",
+        "JS"
+      ]
+    },
+    {
+      "id": 42,
+      "name": "Framer Motion Animations",
+      "description": "I followed a YouTube tutorial to learn Framer Motion for the first time and made some animations to apply what I'd learned.",
+      "link": "/misc/framer-motion/index.html",
+      "tags": [
+        "Learning",
+        "Animation",
+        "Library",
+        "Jun 2025"
+      ],
+      "skills": [
+        "React"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Geometric Calculator",
+      "description": "Made this JS project to help calculating but mostly cheating in math >:)",
+      "link": "/misc/geometric-sequences/index.html",
+      "tags": [
+        "Learning",
+        "Feb 2023"
+      ],
+      "skills": [
+        "HTML",
+        "CSS",
+        "JS"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Image Slider",
+      "description": "An image sliding app completely copied off a YouTube video.",
+      "link": "/misc/image-slider/index.html",
+      "tags": [
+        "Learning",
+        "Feb 2023"
+      ],
+      "skills": [
+        "HTML",
+        "CSS",
+        "JS"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Moon Animation",
+      "description": "A mini animation player of different phases of the moon with speed controls.",
+      "link": "/misc/moon-phases/index.html",
+      "tags": [
+        "Fun",
+        "Jun 2023"
+      ],
+      "skills": [
+        "HTML",
+        "CSS",
+        "JS"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Movable Element",
+      "description": "A movable/draggable element using JS for a MacVG feature.",
+      "link": "/misc/movable-element/index.html",
+      "tags": [
+        "Learning",
+        "MacWeb",
+        "Nov 2023"
+      ],
+      "skills": [
+        "HTML",
+        "CSS",
+        "JS"
+      ]
+    },
+    {
+      "id": 29,
+      "name": "Atbash Cipher Tool",
+      "description": "This app can encrypt and decrypt Atbash ciphers.",
+      "link": "/projects/atbash-cipher/index.html",
+      "tags": ["Web App", "Nov 2024"],
+      "skills": ["HTML", "CSS", "JS"]
+    },
+    {
+      "id": 33,
+      "name": "Sodia",
+      "description": "Mock-up design of what social media should be.",
+      "link": "/projects/sodia/index.html",
+      "tags": [
+        "Design",
+        "Jan 2025"
+      ],
+      "skills": [
+        "HTML",
+        "CSS"
+      ]
+    },
+    {
+      "id": 41,
+      "name": "ProComp",
+      "description": "A mocking mock-up of a professional company's website.",
+      "link": "/misc/pro-comp/index.html",
+      "tags": [
+        "Design",
+        "May 2025"
+      ],
+      "skills": [
+        "HTML",
+        "CSS"
+      ]
+    },
+    {
+      "id": 46,
+      "name": "67 Site",
+      "description": "What do you get when you put the 67 meme with a high school dev? A complete web archive of 67 with everything about it.",
+      "link": "https://tonymac129.github.io/67/",
+      "tags": [
+        "Web App",
+        "Sep 2025"
+      ],
+      "skills": [
+        "React"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Quadratic Calculator",
+      "description": "Made this JS project so I don't have to remember the quadratic formula >:)",
+      "link": "/misc/quadratic-calculator/index.html",
+      "tags": [
+        "Learning",
+        "Feb 2023"
+      ],
+      "skills": [
+        "HTML",
+        "CSS",
+        "JS"
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Screenshot",
+      "description": "A screenshot app that captures the webpage and downloads using the JS library html2canvas.",
+      "link": "/misc/screenshot/index.html",
+      "tags": [
+        "Learning",
+        "Library",
+        "Jan 2024"
+      ],
+      "skills": [
+        "HTML",
+        "CSS",
+        "JS"
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Text Animation",
+      "description": "A basic CSS-only text animation I made following a YouTube tutorial involving text stroke.",
+      "link": "/misc/text-animation/index.html",
+      "tags": [
+        "Learning",
+        "Animation",
+        "Jan 2023"
+      ],
+      "skills": [
+        "HTML",
+        "CSS"
+      ]
+    },
+    {
+      "id": 24,
+      "name": "Wave Visualizer",
+      "description": "A little tool that lets you visualize data as waves.",
+      "link": "/misc/wave-visualizer/index.html",
+      "tags": [
+        "Learning",
+        "Sep 2024"
+      ],
+      "skills": [
+        "HTML",
+        "CSS",
+        "JS"
+      ]
+    },
+    {
+      "id": 37,
+      "name": "Polygon Calculator",
+      "description": "Calculator for a polygon's angle measures.",
+      "link": "/misc/polygon-calculator/index.html",
+      "tags": [
+        "Web App",
+        "Feb 2025"
+      ],
+      "skills": [
+        "HTML",
+        "CSS",
+        "JS"
+      ]
+    },
+    {
+      "id": 34,
+      "name": "React Stopwatch",
+      "description": "My first ever beginner React app from a YouTube tutorial.",
+      "link": "https://tonysreactstopwatch.netlify.app",
+      "tags": [
+        "Learning",
+        "Jan 2025"
+      ],
+      "skills": [
+        "React"
+      ]
+    },
+    {
+      "id": 35,
+      "name": "Gen Alpha Store",
+      "description": "I chose to make a brainrot website for my first React Router project 🫠",
+      "link": "https://gen-alpha-store.netlify.app",
+      "tags": [
+        "Learning",
+        "Library",
+        "Jan 2025"
+      ],
+      "skills": [
+        "React"
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Jokepedia",
+      "description": "A random joke generator made using JokeAPI.",
+      "link": "/misc/jokepedia/index.html",
+      "tags": [
+        "Web App",
+        "Sep 2024"
+      ],
+      "skills": [
+        "HTML",
+        "CSS",
+        "JS"
+      ]
+    },
+    {
+      "id": 19,
+      "name": "CodeLabs",
+      "description": "A simple code playgorund sandbox for web development that updates in real time.",
+      "link": "/misc/code-lab/index.html",
+      "tags": [
+        "Web App",
+        "Jun 2024"
+      ],
+      "skills": [
+        "HTML",
+        "CSS",
+        "JS"
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Interactive Input",
+      "description": "A simple interactive input for dev club guest lecture.",
+      "link": "/misc/interactive-input/advanced/index.html",
+      "tags": [
+        "Demo",
+        "Nov 2025"
+      ],
+      "skills": [
+        "HTML",
+        "CSS",
+        "JS"
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Text Goofifier",
+      "description": "This app makes the text you paste in look goofy.",
+      "link": "/misc/text-modifier/index.html",
+      "tags": [
+        "Learning",
+        "Feb 2024"
+      ],
+      "skills": [
+        "HTML",
+        "CSS",
+        "JS"
+      ]
+    },
+    {
+      "id": 50,
+      "name": "Announcement",
+      "description": "Announcement banner",
+      "link": "/misc/announcement/index.html",
+      "tags": [
+        "Learning"
+      ],
+      "skills": [
+        "HTML",
+        "CSS",
+        "JS"
+      ]
+    },
+    {
+      "id": 51,
+      "name": "CSS Grid",
+      "description": "CSS grid and responsive design learning page",
+      "link": "/misc/css-grid/index.html",
+      "tags": [
+        "Learning"
+      ],
+      "skills": [
+        "HTML",
+        "CSS"
+      ]
+    },
+    {
+      "id": 52,
+      "name": "Image Transition",
+      "description": "Cool image transition project for learning basic JS",
+      "link": "/misc/image-transition/index.html",
+      "tags": [
+        "Learning"
+      ],
+      "skills": [
+        "HTML",
+        "CSS",
+        "JS"
+      ]
+    },
+    {
+      "id": 53,
+      "name": "IMDb Redesign",
+      "description": "Incomplete redesign of IMDb that's not very good",
+      "link": "/misc/imdb/index.html",
+      "tags": [
+        "Redesign"
+      ],
+      "skills": [
+        "HTML",
+        "CSS"
+      ]
+    },
+    {
+      "id": 54,
+      "name": "Popup",
+      "description": "A popup modal for learning JS and as a prototype for another project",
+      "link": "/misc/popup/index.html",
+      "tags": [
+        "Learning"
+      ],
+      "skills": [
+        "HTML",
+        "CSS",
+        "JS"
+      ]
+    },
+    {
+      "id": 55,
+      "name": "Vanilla Tilt",
+      "description": "A card with cool hover effects and design using vanilla tilt JS library",
+      "link": "/misc/tilt-design/index.html",
+      "tags": [
+        "Learning"
+      ],
+      "skills": [
+        "HTML",
+        "CSS",
+        "JS"
+      ]
+    },
+    {
+      "id": 56,
+      "name": "MacVG Prototype",
+      "description": "Very first version of the popular game site MacVG",
+      "link": "/misc/tonymac129/index.html",
+      "tags": [
+        "Redesign"
+      ],
+      "skills": [
+        "HTML",
+        "CSS",
+        "JS"
+      ]
+    },
+    {
+      "id": 57,
+      "name": "Cell Analogy",
+      "description": "Built an entire website for a small 7th grade science project",
+      "link": "/misc/cell-analogy/index.html",
+      "tags": [
+        "School"
+      ],
+      "skills": [
+        "HTML",
+        "CSS"
+      ]
+    },
+    {
+      "id": 58,
+      "name": "The Heroic Squirrel",
+      "link": "/misc/squirrel.pdf",
+      "tags": [
+        "School"
+      ],
+      "skills": []
+    },
+    {
+      "id": 59,
+      "name": "Civil War Museum",
+      "link": "/misc/Civil War Museum Exhibit.pdf",
+      "tags": [
+        "School"
+      ],
+      "skills": []
+    },
+    {
+      "id": 60,
+      "name": "Civil War Amendments",
+      "link": "/misc/Civil War Museum Amendments.pdf",
+      "tags": [
+        "School"
+      ],
+      "skills": []
+    },
+    {
+      "id": 61,
+      "name": "Fort Sumter Newspaper",
+      "link": "/misc/Fort Sumter Newspaper.pdf",
+      "tags": [
+        "School"
+      ],
+      "skills": []
+    },
+    {
+      "id": 62,
+      "name": "Balloon Car Project",
+      "link": "/misc/Which Balloon Car Runs Farther.pdf",
+      "tags": [
+        "School",
+        "Science"
+      ],
+      "skills": []
+    },
+    {
+      "id": 63,
+      "name": "Project Green City",
+      "link": "/misc/Project Green City.pdf",
+      "tags": [
+        "School"
+      ],
+      "skills": []
+    },
+    {
+      "id": 64,
+      "name": "Galaxy Builder",
+      "link": "https://scratch.mit.edu/projects/747432575/",
+      "tags": [
+        "School",
+        "Scratch"
+      ],
+      "skills": []
+    },
+    {
+      "id": 65,
+      "name": "西餐禮儀",
+      "link": "/misc/西餐禮儀.pdf",
+      "tags": [
+        "School"
+      ],
+      "skills": []
+    },
+    {
+      "id": 66,
+      "name": "摩擦力",
+      "link": "/misc/摩擦力.pdf",
+      "tags": [
+        "School",
+        "Science"
+      ],
+      "skills": []
+    },
+    {
+      "id": 67,
+      "name": "連續整數",
+      "link": "/misc/連續整數.pdf",
+      "tags": [
+        "School",
+        "Math"
+      ],
+      "skills": []
+    },
+    {
+      "id": 68,
+      "name": "移位遊戲",
+      "link": "/misc/移位遊戲.pdf",
+      "tags": [
+        "School",
+        "Math"
+      ],
+      "skills": []
+    },
+    {
+      "id": 69,
+      "name": "愛吃食物",
+      "link": "/misc/愛吃食物.pdf",
+      "tags": [
+        "School",
+        "Science"
+      ],
+      "skills": []
+    },
+    {
+      "id": 70,
+      "name": "路面積水",
+      "link": "/misc/路面積水.pdf",
+      "tags": [
+        "School",
+        "Science"
+      ],
+      "skills": []
+    },
+    {
+      "id": 71,
+      "name": "寶特瓶扇葉",
+      "link": "/misc/寶特瓶扇葉.pdf",
+      "tags": [
+        "School",
+        "Science"
+      ],
+      "skills": []
+    },
+    {
+      "id": 72,
+      "name": "水熊蟲報告",
+      "link": "/misc/水熊蟲報告.pdf",
+      "tags": [
+        "School",
+        "Science"
+      ],
+      "skills": []
+    },
+    {
+      "id": 73,
+      "name": "Old YouTube Channel",
+      "link": "https://www.youtube.com/@AmericanCube",
+      "tags": [
+        "Other"
+      ],
+      "skills": []
+    }
+  ]
+}

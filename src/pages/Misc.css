@@ -1,0 +1,19 @@
+.misc-search {
+  background-color: var(--primary-bg);
+  border-radius: 50px;
+  border: 2px solid var(--primary-border);
+  color: var(--primary-text);
+  font-size: 20px;
+  outline: none;
+  padding: 10px 30px;
+  width: 400px;
+  margin-bottom: 30px;
+}
+
+.misc-search-wrap {
+  text-align: center;
+}
+
+.message {
+  color: var(--secondary-text);
+}
