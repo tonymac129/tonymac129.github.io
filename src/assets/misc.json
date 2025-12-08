@@ -142,8 +142,15 @@
       "name": "Atbash Cipher Tool",
       "description": "This app can encrypt and decrypt Atbash ciphers.",
       "link": "/projects/atbash-cipher/index.html",
-      "tags": ["Web App", "Nov 2024"],
-      "skills": ["HTML", "CSS", "JS"]
+      "tags": [
+        "Web App",
+        "Nov 2024"
+      ],
+      "skills": [
+        "HTML",
+        "CSS",
+        "JS"
+      ]
     },
     {
       "id": 33,
@@ -610,6 +617,18 @@
         "Other"
       ],
       "skills": []
+    },
+    {
+      "id": 74,
+      "name": "Blud Calculator",
+      "link": "/misc/blud-calculator/index.html",
+      "tags": [
+        "Web App",
+        "Nov 2025"
+      ],
+      "skills": [
+        "React"
+      ]
     }
   ]
 }
