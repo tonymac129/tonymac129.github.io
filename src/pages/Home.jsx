@@ -9,6 +9,8 @@ import {
   python,
   java,
   react,
+  nextjs,
+  tailwind,
   unity,
   minecraft,
   stem,
@@ -47,7 +49,7 @@ function Home() {
           <div className="home-content">
             <h1 className="home-title">{titles[Math.floor(Math.random() * titles.length)]}</h1>
             <p className="section-description">
-              I am Tony Macaroni, a 14 year old React front-end developer based in northern Virginia, USA. I'm a high school
+              I am Tony Macaroni, a 15 year old React front-end developer based in northern Virginia, USA. I'm a high school
               freshman studying STEM and computer science at{" "}
               <a href="https://tjhsst.fcps.edu/" target="_blank">
                 TJHSST
@@ -90,6 +92,8 @@ function Home() {
               <SectionImg src={mongodb} title="MongoDB" />
               <SectionImg src={node} title="Node.js" />
               <SectionImg src={express} title="Express" />
+              <SectionImg src={nextjs} title="Next.js" />
+              <SectionImg src={tailwind} title="Tailwind" />
               <SectionImg src={cli} title="Command Line Interface" />
               <SectionImg src={python} title="Python" />
               <SectionImg src={java} title="Java" />
@@ -109,7 +113,7 @@ function Home() {
                 </a>{" "}
                 and CLI) to develop front-end web apps and websites, and you can see all the projects I worked on since 2022 when
                 I started coding displayed here on my personal website. Right now, I'm learning full stack development with the
-                MERN stack to make my products more interactive and functional.{" "}
+                MERN stack as well as Next.js and Tailwind to make my products more interactive and functional.{" "}
                 <a href="https://mac-web.github.io" target="_blank">
                   MacWeb
                 </a>{" "}
@@ -156,8 +160,8 @@ function Home() {
                   Minecraft
                 </a>{" "}
                 addict, totaling hundreds of hours on the games. You can also find me wasting my life away on TikTok, YouTube, and
-                Reddit, just like all of you. When I'm away from the screen, I'm probably eating pizza, earning service hours as a
-                teacher assistant at my{" "}
+                Reddit, like a normal teenager. When I'm away from the screen, I'm probably eating pizza, earning service hours as
+                a teacher assistant at my{" "}
                 <a href="https://www.nvaecs.org/en/index.php" target="_blank">
                   Chinese school
                 </a>
@@ -188,9 +192,9 @@ function Home() {
               <h2 className="section-title">I do other stuff too</h2>
               <div className="section-description">
                 Sure, I'm already learning calculus, have a passion for STEM, had the highest GPA in my middle school, and I'm
-                trying my hardest to get in MIT, but I'm not the tryhard you're probably picturing in your mind right now (or am
-                I?). I procrastinate 24/7, play basketball with my friends, play different games with them, and travel to
-                different places during summer.
+                trying to go to MIT, but I'm not the tryhard you're probably picturing in your mind right now, trust me. I
+                procrastinate 24/7, play basketball with my friends, play different games with them, and travel to different
+                places during summer.
               </div>
               <div className="section-btns">
                 <Btn link="/blog" text="Read my blog" primary={true} />

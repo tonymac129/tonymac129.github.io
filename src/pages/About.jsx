@@ -33,7 +33,7 @@ function About() {
                 name="Jujutsu Kaisen"
                 link="https://www.imdb.com/title/tt12343534/"
                 img="https://m.media-amazon.com/images/I/7161lLGp87L._AC_UF894,1000_QL80_.jpg"
-                tag="Holy peak peak peak 👉🏔️"
+                tag="New season in a month"
               />
               <Status
                 action="Watching"
@@ -49,14 +49,14 @@ function About() {
                 img="https://upload.wikimedia.org/wikipedia/en/thumb/5/5c/Harry_Potter_and_the_Chamber_of_Secrets.jpg/250px-Harry_Potter_and_the_Chamber_of_Secrets.jpg"
                 tag="First time reading the series"
               />
-              <div className="status-message">Status last udpated 11/14/25</div>
+              <div className="status-message">Status last udpated 12/8/25</div>
             </div>
           </div>
           <div className="about-content">
             <div className="about-paragraph">
               <h2 className="section-title">Brief Intro</h2>
               <p className="section-description">
-                👋 I'm Tony, a 14 years old React front-end developer based in northern Virginia, USA. I'm a high school freshman
+                👋 I'm Tony, a 15 year old React front-end developer based in northern Virginia, USA. I'm a high school freshman
                 studying STEM and computer science at{" "}
                 <a href="https://tjhsst.fcps.edu/" target="_blank">
                   TJHSST
@@ -67,7 +67,8 @@ function About() {
                 </a>
                 , an online platform for gaming and learning web development. As of computer programming, I know several
                 technologies and languages such as React, HTML, CSS, JavaScript, Java, C#, and Python. I'm currently learning
-                back-end web development technologies like MongoDB, Express, and Node (the MERN stack).
+                back-end web development technologies like MongoDB, Express, and Node (the MERN stack), as well as Next.js and
+                Tailwind.
               </p>
             </div>
             <div className="about-paragraph">
@@ -172,7 +173,7 @@ function About() {
           />
           <Favorite
             name="Chainsaw Man"
-            description={'WE are all cracking Power 😏'}
+            description={"WE are all cracking Power 😏"}
             img="https://m.media-amazon.com/images/I/81iZCUeRLXL._AC_UF894,1000_QL80_.jpg"
             link="https://www.imdb.com/title/tt13616990/"
           />
@@ -229,42 +230,42 @@ function About() {
         <div className="favorite-cards">
           <Favorite
             name="Pizza"
-            description={'The most popular food in the world'}
+            description={"The most popular food in the world"}
             img="https://media.istockphoto.com/id/901501348/vector/slice-of-melted-cheese-pepperoni-pizza.jpg?s=612x612&w=0&k=20&c=0cIsVfLHiabGD1NGDZEfE1hIBmD5DQuzNuLK8Owvyo8="
           />
           <Favorite
             name="Beef Noodles"
-            description={'Peak Asian food (especially the spicy ones)'}
+            description={"Peak Asian food (especially the spicy ones)"}
             img="https://thewoksoflife.com/wp-content/uploads/2016/02/beef-noodle-soup-7-1.jpg"
           />
           <Favorite
             name="Oreo"
-            description={'Too good'}
+            description={"Too good"}
             img="https://m.media-amazon.com/images/I/81d3XikUx+L._UF350,350_QL80_.jpg"
           />
           <Favorite
             name="Takis"
-            description={'Best TV snack'}
+            description={"Best TV snack"}
             img="https://ih1.redbubble.net/image.4377687259.0952/st,small,507x507-pad,600x600,f8f8f8.u2.jpg"
           />
           <Favorite
             name="Doritos"
-            description={'Second best TV snack'}
+            description={"Second best TV snack"}
             img="https://ih1.redbubble.net/image.285467560.8952/st,small,507x507-pad,600x600,f8f8f8.u1.jpg"
           />
           <Favorite
             name="Music"
-            description={'I listen to... a lot of stuff, pop, rap, rock, and more'}
+            description={"I listen to... a lot of stuff, pop, rap, rock, and more"}
             img="https://static.vecteezy.com/system/resources/previews/006/057/992/non_2x/spotify-logo-on-transparent-background-free-vector.jpg"
           />
           <Favorite
             name="Brawl Stars"
-            description={'Clash is NOT better bro ⭐🔛🔝 (65k trophies)'}
+            description={"Clash is NOT better bro ⭐🔛🔝 (65k trophies)"}
             img="https://i.scdn.co/image/ab6761610000e5ebf7b952107c126c561c52171e"
           />
           <Favorite
             name="Minecraft"
-            description={'I get dizzy playing this but I still do 💀'}
+            description={"I get dizzy playing this but I still do 💀"}
             img="https://yt3.googleusercontent.com/scvGT8SucZvs5yIkBBFQ0s0IQS1kPiiJgtYGUCTtRpIfSq6laBJ-5bPieuzrHuyVWIy0XxN4Ww=s900-c-k-c0x00ffffff-no-rj"
           />
         </div>
