@@ -23,17 +23,17 @@ function About() {
             <div className="statuses">
               <Status
                 action="Developing"
-                name="Sodia"
-                link="https://sodia-33dm.onrender.com/"
+                name="Subtrack"
+                link="https://app-subtrack.vercel.app"
                 img=""
-                tag="Full stack social media app built with MERN"
+                tag="Full stack subscription management service"
               />
               <Status
                 action="Watching"
-                name="Jujutsu Kaisen"
-                link="https://www.imdb.com/title/tt12343534/"
-                img="https://m.media-amazon.com/images/I/7161lLGp87L._AC_UF894,1000_QL80_.jpg"
-                tag="New season in a month"
+                name="My Hero Academia"
+                link="https://www.imdb.com/title/tt5626028/"
+                img="https://m.media-amazon.com/images/M/MV5BY2QzODA5OTQtYWJlNi00ZjIzLThhNTItMDMwODhlYzYzMjA2XkEyXkFqcGc@._V1_.jpg"
+                tag="Finale so tuff 🥹✌️"
               />
               <Status
                 action="Watching"
@@ -49,7 +49,7 @@ function About() {
                 img="https://upload.wikimedia.org/wikipedia/en/thumb/5/5c/Harry_Potter_and_the_Chamber_of_Secrets.jpg/250px-Harry_Potter_and_the_Chamber_of_Secrets.jpg"
                 tag="First time reading the series"
               />
-              <div className="status-message">Status last udpated 12/8/25</div>
+              <div className="status-message">Status last udpated 12/21/25</div>
             </div>
           </div>
           <div className="about-content">

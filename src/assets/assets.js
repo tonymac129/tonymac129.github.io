@@ -8,6 +8,7 @@ import python from "./icons/python.svg";
 import java from "./icons/java.svg";
 import react from "./icons/react.svg";
 import nextjs from "./icons/nextjs.svg";
+import typescript from "./icons/typescript.svg";
 import tailwind from "./icons/tailwind.svg";
 import unity from "./icons/unity.svg";
 import webdesign from "./icons/design.svg";
@@ -54,6 +55,7 @@ export {
   java,
   react,
   nextjs,
+  typescript,
   tailwind,
   unity,
   webdesign,
