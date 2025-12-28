@@ -11,6 +11,7 @@ import {
   js,
   java,
   python,
+  tailwind,
   react,
   unity,
   mongodb,
@@ -32,7 +33,7 @@ function Projects() {
   const [display, setDisplay] = useState(projectData.projects);
   const length = projectData.projects.length;
   const project = projectData.projects[length - 1 - projectID];
-  const icons = { cli, csharp, css, html, js, java, python, react, unity, mongodb, express, node };
+  const icons = { cli, csharp, css, html, js, java, python, react, unity, tailwind, mongodb, express, node };
 
   useEffect(() => handleSort("recent"), []);
 

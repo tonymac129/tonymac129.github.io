@@ -1,9 +1,25 @@
-import { cli, csharp, css, html, js, python, java, react, unity, mongodb, express, node } from "../assets/assets";
+import {
+  cli,
+  csharp,
+  css,
+  html,
+  js,
+  python,
+  java,
+  react,
+  unity,
+  mongodb,
+  express,
+  node,
+  nextjs,
+  tailwind,
+  typescript,
+} from "../assets/assets";
 import { back, next } from "../assets/assets";
 import SectionImg from "./SectionImg";
 
 function Project({ project, setProjectID, setNext, length }) {
-  const icons = { cli, csharp, css, html, js, java, python, react, unity, mongodb, express, node };
+  const icons = { cli, csharp, css, html, js, java, python, react, unity, mongodb, express, node, nextjs, tailwind, typescript };
 
   function handleNext() {
     setProjectID((prev) => (prev == 0 ? length - 1 : prev - 1));

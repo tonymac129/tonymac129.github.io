@@ -629,6 +629,34 @@
       "skills": [
         "React"
       ]
+    },
+    {
+      "id": 75,
+      "name": "Pong",
+      "link": "https://github.com/tonymac129/pong",
+      "tags": [
+        "Java",
+        "Dec 2025"
+      ],
+      "skills": [
+        "Java"
+      ]
+    },
+    {
+      "id": 76,
+      "name": "Modern Stack",
+      "link": "https://modern-stack-self.vercel.app/",
+      "tags": [
+        "Learning",
+        "Library",
+        "Dec 2025"
+      ],
+      "skills": [
+        "React",
+        "Next.js",
+        "TypeScript",
+        "Tailwind"
+      ]
     }
   ]
 }

@@ -1,13 +1,30 @@
 import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
 import { Link } from "react-router";
-import { miscData, cli, csharp, css, html, js, java, python, react, unity, mongodb, express, node } from "../assets/assets";
+import {
+  miscData,
+  cli,
+  csharp,
+  css,
+  html,
+  js,
+  java,
+  python,
+  react,
+  unity,
+  mongodb,
+  express,
+  node,
+  nextjs,
+  tailwind,
+  typescript,
+} from "../assets/assets";
 import Hero from "../components/Hero";
 import SectionImg from "../components/SectionImg";
 import "./Misc.css";
 
 function Misc() {
-  const icons = { cli, csharp, css, html, js, java, python, react, unity, mongodb, express, node };
+  const icons = { cli, csharp, css, html, js, java, python, react, unity, mongodb, express, node, nextjs, tailwind, typescript };
   const [displayed, setDisplayed] = useState(miscData.projects);
   const [search, setSearch] = useState("");
 
@@ -40,7 +57,7 @@ function Misc() {
                   <h3 className="grid-project-name">{project.name}</h3>
                   <div className="grid-project-tech">
                     {project.skills.map((skill) => {
-                      return <SectionImg src={icons[skill.toLowerCase()]} title={skill} />;
+                      return <SectionImg src={icons[skill.toLowerCase().replace(".", "")]} title={skill} />;
                     })}
                   </div>
                   <div className="grid-project-tags">

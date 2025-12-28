@@ -5,216 +5,426 @@
       "name": "Waterbear Page",
       "description": "The basic webpage that started everything when I was first learning HTML, CSS, and JS.",
       "link": "/projects/waterbear/Password.html",
-      "tags": ["Learning", "Aug 2022"],
-      "skills": ["HTML", "CSS"]
+      "tags": [
+        "Learning",
+        "Aug 2022"
+      ],
+      "skills": [
+        "HTML",
+        "CSS"
+      ]
     },
     {
       "id": 4,
       "name": "Countdown",
       "description": "A (not very accurate) simple countdown web app with JS Date() object, made using a YouTube tutorial.",
       "link": "/projects/countdown/index.html",
-      "tags": ["Web App", "Jan 2023"],
-      "skills": ["HTML", "CSS", "JS"]
+      "tags": [
+        "Web App",
+        "Jan 2023"
+      ],
+      "skills": [
+        "HTML",
+        "CSS",
+        "JS"
+      ]
     },
     {
       "id": 5,
       "name": "Calculator",
       "description": "An over-simplified and very limited calculator app.",
       "link": "/projects/calculator/index.html",
-      "tags": ["Learning", "Feb 2023"],
-      "skills": ["HTML", "CSS", "JS"]
+      "tags": [
+        "Learning",
+        "Feb 2023"
+      ],
+      "skills": [
+        "HTML",
+        "CSS",
+        "JS"
+      ]
     },
     {
       "id": 10,
       "name": "MacText",
       "description": "A little text formatter using JS string manipulation with many options and features.",
       "link": "/projects/mactext/index.html",
-      "tags": ["Web App", "Oct 2023"],
-      "skills": ["HTML", "CSS", "JS"]
+      "tags": [
+        "Web App",
+        "Oct 2023"
+      ],
+      "skills": [
+        "HTML",
+        "CSS",
+        "JS"
+      ]
     },
     {
       "id": 12,
       "name": "TypeRacer Redesign",
       "description": "I gave the very outdated typing site a new fresh look.",
       "link": "/projects/typeracer/index.html",
-      "tags": ["Design", "Nov 2023"],
-      "skills": ["HTML", "CSS"]
+      "tags": [
+        "Design",
+        "Nov 2023"
+      ],
+      "skills": [
+        "HTML",
+        "CSS"
+      ]
     },
     {
       "id": 15,
       "name": "Google Redesign",
       "description": "I remade the tech giant's search home page to make it more intuitive and friendly.",
       "link": "/projects/google/index.html",
-      "tags": ["Design", "Jan 2024"],
-      "skills": ["HTML", "CSS", "JS"]
+      "tags": [
+        "Design",
+        "Jan 2024"
+      ],
+      "skills": [
+        "HTML",
+        "CSS",
+        "JS"
+      ]
     },
     {
       "id": 17,
       "name": "Snake Game",
       "description": "I made a very simple version of the classic snake game with HTML5 canvas.",
       "link": "/projects/snake/index.html",
-      "tags": ["Game", "Mar 2024"],
-      "skills": ["HTML", "CSS", "JS"]
+      "tags": [
+        "Game",
+        "Mar 2024"
+      ],
+      "skills": [
+        "HTML",
+        "CSS",
+        "JS"
+      ]
     },
     {
       "id": 18,
       "name": "Weatherboard",
       "description": "I built the classic beginner weather forecast project with OpenWeatherMap's API.",
       "link": "/projects/weatherboard/index.html",
-      "tags": ["Web App", "May 2024"],
-      "skills": ["HTML", "CSS", "JS"]
+      "tags": [
+        "Web App",
+        "May 2024"
+      ],
+      "skills": [
+        "HTML",
+        "CSS",
+        "JS"
+      ]
     },
     {
       "id": 21,
       "name": "Amazon Redesign",
       "description": "Everyone knows that Amazon is in need of a redesign make over.",
       "link": "/projects/amazon/index.html",
-      "tags": ["Design", "Jul 2024"],
-      "skills": ["HTML", "CSS"]
+      "tags": [
+        "Design",
+        "Jul 2024"
+      ],
+      "skills": [
+        "HTML",
+        "CSS"
+      ]
     },
     {
       "id": 22,
       "name": "Guess the State: Blind",
       "description": "Can you name all 50 states? Test your US geography skills with this interactive game!",
       "link": "/projects/guess-state/index.html",
-      "tags": ["Game", "Aug 2024"],
-      "skills": ["HTML", "CSS", "JS"]
+      "tags": [
+        "Game",
+        "Aug 2024"
+      ],
+      "skills": [
+        "HTML",
+        "CSS",
+        "JS"
+      ]
     },
     {
       "id": 23,
       "name": "Tic-Tac-Toe",
       "description": "A simple two player online tic-tac-toe game.",
       "link": "/projects/tic-tac-toe/index.html",
-      "tags": ["Game", "Aug 2024"],
-      "skills": ["HTML", "CSS", "JS"]
+      "tags": [
+        "Game",
+        "Aug 2024"
+      ],
+      "skills": [
+        "HTML",
+        "CSS",
+        "JS"
+      ]
     },
     {
       "id": 26,
       "name": "Caesar Cipher Encoder",
       "description": "I made a tool that encodes messages using Caesar Cipher.",
       "link": "/projects/caesar-encoder/index.html",
-      "tags": ["Web App", "Oct 2024"],
-      "skills": ["HTML", "CSS", "JS"]
+      "tags": [
+        "Web App",
+        "Oct 2024"
+      ],
+      "skills": [
+        "HTML",
+        "CSS",
+        "JS"
+      ]
     },
     {
       "id": 27,
       "name": "Caesar Cipher Decoder",
       "description": "I made a tool that decodes messages encrypted with Caesar Cipher.",
       "link": "/projects/caesar-decoder/index.html",
-      "tags": ["Web App", "Oct 2024"],
-      "skills": ["HTML", "CSS", "JS"]
+      "tags": [
+        "Web App",
+        "Oct 2024"
+      ],
+      "skills": [
+        "HTML",
+        "CSS",
+        "JS"
+      ]
     },
     {
       "id": 28,
       "name": "Vigenere Cipher Tool",
       "description": "This app can encrypt and decrypt Vigenere Ciphers.",
       "link": "/projects/vigenere-cipher/index.html",
-      "tags": ["Web App", "Nov 2024"],
-      "skills": ["HTML", "CSS", "JS"]
+      "tags": [
+        "Web App",
+        "Nov 2024"
+      ],
+      "skills": [
+        "HTML",
+        "CSS",
+        "JS"
+      ]
     },
     {
       "id": 30,
       "name": "Memoji",
       "description": "In this cool little game, you have to memorize the cards and match the same emojis!",
       "link": "/projects/memoji/index.html",
-      "tags": ["Game", "Dec 2024"],
-      "skills": ["HTML", "CSS", "JS"]
+      "tags": [
+        "Game",
+        "Dec 2024"
+      ],
+      "skills": [
+        "HTML",
+        "CSS",
+        "JS"
+      ]
     },
     {
       "id": 31,
       "name": "Homeboard",
       "description": "A personalized and customizable new tab dashboard with different widgets. (Full demo recommended)",
       "link": "/projects/homeboard/index.html",
-      "tags": ["Web App", "Dec 2024"],
-      "skills": ["HTML", "CSS", "JS"]
+      "tags": [
+        "Web App",
+        "Dec 2024"
+      ],
+      "skills": [
+        "HTML",
+        "CSS",
+        "JS"
+      ]
     },
     {
       "id": 32,
       "name": "SeenIt",
       "description": "Simple movies and TV shows tracking app.",
       "link": "https://seenitapp.netlify.app",
-      "tags": ["Web App", "Jan 2025"],
-      "skills": ["HTML", "CSS", "JS"]
+      "tags": [
+        "Web App",
+        "Jan 2025"
+      ],
+      "skills": [
+        "HTML",
+        "CSS",
+        "JS"
+      ]
     },
     {
       "id": 36,
       "name": "Money Tracker",
       "description": "Simple app that tracks your transactions and balance.",
       "link": "https://tonymac129.github.io/money-tracker/",
-      "tags": ["Web App", "Feb 2025"],
-      "skills": ["HTML", "CSS", "JS"]
+      "tags": [
+        "Web App",
+        "Feb 2025"
+      ],
+      "skills": [
+        "HTML",
+        "CSS",
+        "JS"
+      ]
     },
     {
       "id": 38,
       "name": "Password Manager",
       "description": "App that manages your passwords and accounts.",
       "link": "/projects/password-manager/index.html",
-      "tags": ["Web App", "Mar 2025"],
-      "skills": ["HTML", "CSS", "JS"]
+      "tags": [
+        "Web App",
+        "Mar 2025"
+      ],
+      "skills": [
+        "HTML",
+        "CSS",
+        "JS"
+      ]
     },
     {
       "id": 39,
       "name": "Listly",
       "description": "Powerful and lightweight to-do app with many advanced features.",
       "link": "https://tonymac129.github.io/listly/",
-      "tags": ["Web App", "Apr 2025"],
-      "skills": ["HTML", "CSS", "JS"]
+      "tags": [
+        "Web App",
+        "Apr 2025"
+      ],
+      "skills": [
+        "HTML",
+        "CSS",
+        "JS"
+      ]
     },
     {
       "id": 40,
       "name": "Bored",
       "description": "A goofy interactive webpage made to cure your boredom.",
       "link": "/projects/bored/index.html",
-      "tags": ["Game", "Apr 2025"],
-      "skills": ["HTML", "CSS", "JS"]
+      "tags": [
+        "Game",
+        "Apr 2025"
+      ],
+      "skills": [
+        "HTML",
+        "CSS",
+        "JS"
+      ]
     },
     {
       "id": 43,
       "name": "Stolen Car",
       "description": "I made a website for my friends' film production studio, Stolen Car Productions, to display their films and related information.",
       "link": "https://stolencar.github.io",
-      "tags": ["Web App", "Jun 2025"],
-      "skills": ["React"]
+      "tags": [
+        "Web App",
+        "Jun 2025"
+      ],
+      "skills": [
+        "React"
+      ]
     },
     {
       "id": 44,
       "name": "Daily Log",
       "description": "A daily activity tracker with lots of features so it doesn't feel like your wasting everyday without accomplishing anything.",
       "link": "https://tonymac129.github.io/daily-log/",
-      "tags": ["Web App", "Jul 2025"],
-      "skills": ["React"]
+      "tags": [
+        "Web App",
+        "Jul 2025"
+      ],
+      "skills": [
+        "React"
+      ]
     },
     {
       "id": 45,
       "name": "Project Bellbot",
       "description": "I made a website documenting an auto bell ringing robot for NVAECS programmed in Java that my friend made.",
       "link": "https://tonymac129.github.io/project-bellbot/",
-      "tags": ["Web App", "Aug 2025"],
-      "skills": ["React", "Java"]
+      "tags": [
+        "Web App",
+        "Aug 2025"
+      ],
+      "skills": [
+        "React",
+        "Java"
+      ]
     },
     {
       "id": 47,
       "name": "StemGames",
       "description": "A popular discontinued game site for school and was basically a copy of MacVG but with different UI",
       "link": "https://tonymac129.github.io/stemgames/",
-      "tags": ["Web App", "Jan 2024"],
-      "skills": ["HTML", "CSS", "JS"]
+      "tags": [
+        "Web App",
+        "Jan 2024"
+      ],
+      "skills": [
+        "HTML",
+        "CSS",
+        "JS"
+      ]
     },
     {
       "id": 48,
       "name": "Viberverse",
       "description": "Another popular discontinued game site made for school with a lot of games and features.",
       "link": "https://viberverse.github.io/",
-      "tags": ["Web App", "Oct 2024"],
-      "skills": ["HTML", "CSS", "JS"]
+      "tags": [
+        "Web App",
+        "Oct 2024"
+      ],
+      "skills": [
+        "HTML",
+        "CSS",
+        "JS"
+      ]
     },
     {
       "id": 49,
       "name": "Thinkboard",
       "description": "My first full stack app built with MERN where users can create and manage public notes!",
       "link": "https://thinkboard-y18u.onrender.com/",
-      "tags": ["Learning", "Full Stack", "Oct 2025"],
-      "skills": ["MongoDB", "Express", "React", "Node"]
+      "tags": [
+        "Learning",
+        "Full Stack",
+        "Oct 2025"
+      ],
+      "skills": [
+        "MongoDB",
+        "Express",
+        "React",
+        "Node"
+      ]
+    },
+    {
+      "id": 50,
+      "name": "Brawlverse",
+      "description": "A Brawl Stars wiki with Brawler stats, info, builds, and more that was abandoned halfway :(",
+      "link": "https://tonymac129.github.io/brawlverse/",
+      "tags": [
+        "Web App",
+        "Jan 2025"
+      ],
+      "skills": [
+        "React"
+      ]
+    },
+    {
+      "id": 51,
+      "name": "Christmas Countdown",
+      "description": "Pretty fun Christmas themed countdown with interactive stuff and particles.",
+      "link": "https://tonymac129.github.io/christmas-countdown/",
+      "tags": [
+        "Web App",
+        "Dec 2025"
+      ],
+      "skills": [
+        "React",
+        "Tailwind"
+      ]
     }
   ]
 }
