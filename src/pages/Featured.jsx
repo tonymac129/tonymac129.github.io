@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import Hero from "../components/Hero";
 import Btn from "../components/Btn";
 import SectionImg from "../components/SectionImg";
-import { html, css, js, react, csharp, unity } from "../assets/assets";
+import { react, nextjs, tailwind, mongodb, typescript } from "../assets/assets";
 
 function Featured() {
   return (
@@ -29,6 +29,10 @@ function Featured() {
               <h2 className="section-title">MacWeb</h2>
               <div className="featured-section-imgs">
                 <SectionImg src={react} title="React" />
+                <SectionImg src={nextjs} title="Next.js" />
+                <SectionImg src={typescript} title="TypeScript" />
+                <SectionImg src={tailwind} title="Tailwind" />
+                <SectionImg src={mongodb} title="MongoDB" />
               </div>
               <div className="section-description">
                 MacWeb is an online platform I created to make digital life a bit easier and more enjoyable. It features{" "}
@@ -72,6 +76,46 @@ function Featured() {
             className="section"
           >
             <div className="section-content">
+              <h2 className="section-title">Subtrack</h2>
+              <div className="featured-section-imgs">
+                <SectionImg src={react} title="React" />
+                <SectionImg src={nextjs} title="Next.js" />
+                <SectionImg src={typescript} title="TypeScript" />
+                <SectionImg src={tailwind} title="Tailwind" />
+                <SectionImg src={mongodb} title="MongoDB" />
+              </div>
+              <div className="section-description">
+                Initially I was just tired of having so many subscriptions and services that it was hard to remember all of them
+                and stay on budget. I planned to make a quick React front-end only app for my personal use, but kept delaying it.
+                During this period, I learned the framework Next.js as well as other modern technologies. This made me rethink the
+                entire project, and this was the result: a completely full-stack web app that keeps track of all your
+                subscriptions with 50+ different services and presets, renewal date reminders, subscription management features,
+                account management features with AES-256 password encryption, spending/account analytics dashboard with Chart.js,
+                guest mode, and an OAuth/credential account system that hashes user data and stores it in the backend database
+                securely. This is my first actual complete full-stack app that I put a ton of effort into, totaling over 35 hours
+                of development time.
+              </div>
+              <div className="section-btns">
+                <Btn link="https://app-subtrack.vercel.app" blank={true} text="Major privacy invasion?" primary={true} />
+              </div>
+            </div>
+            <div className="section-imgs">
+              <SectionImg src="https://app-subtrack.vercel.app/logo.png" title="Subtrack" single={true} />
+              <p className="section-img-caption">Random logo I found online because I was too lazy to make one</p>
+            </div>
+          </motion.div>
+          <motion.div
+            initial={{ y: 150, opacity: 0 }}
+            whileInView={{ y: 0, opacity: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6, type: "spring" }}
+            className="section"
+          >
+            <div className="section-imgs">
+              <SectionImg src="https://tonymac129.github.io/lightning/logo.png" title="Lightning" single={true} />
+              <p className="section-img-caption">I've had this idea for a long time but never coded it.</p>
+            </div>
+            <div className="section-content">
               <h2 className="section-title">Lightning</h2>
               <div className="featured-section-imgs">
                 <SectionImg src={react} title="React" />
@@ -97,75 +141,6 @@ function Featured() {
               <div className="section-btns">
                 <Btn link="https://tonymac129.github.io/lightning/" blank={true} text="Mini OS?" primary={true} />
               </div>
-            </div>
-            <div className="section-imgs">
-              <SectionImg src="https://tonymac129.github.io/lightning/logo.png" title="Lightning" single={true} />
-              <p className="section-img-caption">I've had this idea for a long time but never coded it.</p>
-            </div>
-          </motion.div>
-          <motion.div
-            initial={{ y: 150, opacity: 0 }}
-            whileInView={{ y: 0, opacity: 1 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6, type: "spring" }}
-            className="section"
-          >
-            <div className="section-imgs">
-              <SectionImg src="https://tonymac129.github.io/infinote/favicon.png" title="InfiNote" single={true} />
-              <p className="section-img-caption">I really like the gradient of green and blue in the logo.</p>
-            </div>
-            <div className="section-content">
-              <h2 className="section-title">InfiNote</h2>
-              <div className="featured-section-imgs">
-                <SectionImg src={react} title="React" />
-              </div>
-              <div className="section-description">
-                In April 2025, as I started learning more advanced stuff like calculus and trigonometry I find it hard to remember
-                and keep track of all the concepts, equations, and theorems you can use to solve certain problems in addition to
-                building and remembering the intuition for how these concepts work. There's just too much to remember and I often
-                find myself looking up the same thing over and over again. So I thought, why not create a simple digital notebook
-                that allows me to keep track of all the things I've learned? This can definitely improve my math skills while also
-                being a fun little coding exercise that's actually useful too. And that's how InfiNote was born. You can create
-                your own topics, organize notes, edit them with different formatting tools, and do so much more!
-              </div>
-              <div className="section-btns">
-                <Btn link="https://tonymac129.github.io/infinote/" blank={true} text="Go learn math" primary={true} />
-              </div>
-            </div>
-          </motion.div>
-          <motion.div
-            initial={{ y: 150, opacity: 0 }}
-            whileInView={{ y: 0, opacity: 1 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6, type: "spring" }}
-            className="section"
-          >
-            <div className="section-content">
-              <h2 className="section-title">Lunar Lions</h2>
-              <div className="featured-section-imgs">
-                <SectionImg src={csharp} title="C#" />
-                <SectionImg src={unity} title="Unity" />
-              </div>
-              <div className="section-description">
-                Lunar Lions was my middle school's team name for the{" "}
-                <a
-                  href="https://www.nasa.gov/learning-resources/app-development-challenge/adc-handbook-and-coding-componets-2025/"
-                  target="_blank"
-                >
-                  2024 NASA App Development Challenge
-                </a>
-                . Me and my teammates used the Unity 3D engine to make a real-time simulation/visualization app of the Artemis II
-                rocket based on NASA's provided data. This was my first time using C# and Unity.
-              </div>
-              <div className="section-btns">
-                <Btn link="https://thelunarlions.github.io" blank={true} text="Check it out" primary={true} />
-              </div>
-            </div>
-            <div className="section-imgs">
-              <SectionImg src="https://thelunarlions.github.io/favicon.png" title="Lunar Lions" single={true} />
-              <p className="section-img-caption">
-                The logo has a moon rocket with a lion paw on it, perfectly incorporating the project's elements.
-              </p>
             </div>
           </motion.div>
         </div>

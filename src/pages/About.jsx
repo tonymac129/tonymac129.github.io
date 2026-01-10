@@ -16,17 +16,20 @@ function About() {
       <div className="content">
         <div className="about-section">
           <div className="about-side">
-            <div className="home-img">
-              <img src={logo} className="about-img" />
-              <p className="section-img-caption">Can only put AI pfp because there's literally no photo of me</p>
-            </div>
             <div className="statuses">
               <Status
                 action="Developing"
                 name="Subtrack"
                 link="https://app-subtrack.vercel.app"
-                img=""
-                tag="Full stack subscription management service"
+                img="https://app-subtrack.vercel.app/logo.png"
+                tag="Full stack subscription, account, and project management platform"
+              />
+              <Status
+                action="Developing"
+                name="MacVG"
+                link="https://macvg-next.vercel.app"
+                img="https://macvg-next.vercel.app/logo.png"
+                tag="Rewriting the gaming platform MacVG in Next.js with fullstack features"
               />
               <Status
                 action="Watching"
@@ -37,26 +40,33 @@ function About() {
               />
               <Status
                 action="Watching"
-                name="Stranger Things"
-                link="https://www.imdb.com/title/tt4574334/"
-                img="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQEPoq9abrTDIZOYRup-2DDHa_qGT1oqr0e1s3Ls3SjXbrlYDc1Nm6pPtx3GN23_UXkbZ9sHw"
-                tag="New season!1!1!"
+                name="Jujutsu Kaisen"
+                link="https://www.imdb.com/title/tt12343534/"
+                img="https://preview.redd.it/the-jujutsu-kaisen-season-3-part-i-poster-looks-goofy-v0-pny26a834f8g1.jpeg?width=640&crop=smart&auto=webp&s=32e9c1cb183e6f64882fad5cb318096188c29973"
+                tag="Culling game premiere is straight fire might be better than Shibuya"
               />
               <Status
                 action="Reading"
-                name="Harry Potter and the Chamber of Secrets"
-                link="https://en.wikipedia.org/wiki/Harry_Potter_and_the_Chamber_of_Secrets"
-                img="https://upload.wikimedia.org/wikipedia/en/thumb/5/5c/Harry_Potter_and_the_Chamber_of_Secrets.jpg/250px-Harry_Potter_and_the_Chamber_of_Secrets.jpg"
+                name="Harry Potter and the Prisoner of Azkaban"
+                link="https://en.wikipedia.org/wiki/Harry_Potter_and_the_Prisoner_of_Azkaban"
+                img="https://upload.wikimedia.org/wikipedia/en/a/a0/Harry_Potter_and_the_Prisoner_of_Azkaban.jpg"
                 tag="First time reading the series"
               />
-              <div className="status-message">Status last udpated 12/21/25</div>
+              <Status
+                action="Reading"
+                name="The Iliad"
+                link="https://en.wikipedia.org/wiki/Iliad"
+                img="https://m.media-amazon.com/images/I/71FVVdj9w4L._AC_UF1000,1000_QL80_.jpg"
+                tag="I'm not finishing this English HW..."
+              />
+              <div className="status-message">Status last udpated 1/10/26</div>
             </div>
           </div>
           <div className="about-content">
             <div className="about-paragraph">
               <h2 className="section-title">Brief Intro</h2>
               <p className="section-description">
-                👋 I'm Tony, a 15 year old React front-end developer based in northern Virginia, USA. I'm a high school freshman
+                👋 I'm Tony, a 15 year old full-stack web developer based in northern Virginia, USA. I'm a high school freshman
                 studying STEM and computer science at{" "}
                 <a href="https://tjhsst.fcps.edu/" target="_blank">
                   TJHSST
@@ -65,10 +75,10 @@ function About() {
                 <a href="https://mac-web.github.io" target="_blank">
                   MacWeb
                 </a>
-                , an online platform for gaming and learning web development. As of computer programming, I know several
-                technologies and languages such as React, HTML, CSS, JavaScript, Java, C#, and Python. I'm currently learning
-                back-end web development technologies like MongoDB, Express, and Node (the MERN stack), as well as Next.js and
-                Tailwind.
+                , an online platform for gaming and learning web development. As of computer programming, my primary tech stack
+                for building web apps is React, Next.js, TypeScript, Tailwind, and MongoDB. I've also had experience with several
+                other languages and technologies, including HTML, CSS, JavaScript, Express, Node, Java, C#, and Python. I enjoy
+                watching anime, listening to music, and playing basketball in my free time as well.
               </p>
             </div>
             <div className="about-paragraph">
@@ -167,9 +177,15 @@ function About() {
           />
           <Favorite
             name="Frieren"
-            description={'"Aura, kill yourself" (lowk smash tho 😉)'}
+            description={'"Aura, kill yourself"'}
             img="https://m.media-amazon.com/images/M/MV5BZTI4ZGMxN2UtODlkYS00MTBjLWE1YzctYzc3NDViMGI0ZmJmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
             link="https://www.imdb.com/title/tt22248376/"
+          />
+          <Favorite
+            name="Jujutsu Kaisen"
+            description={'"Throughout heaven and earth, I alone am the honored one"'}
+            img="https://m.media-amazon.com/images/I/7161lLGp87L._AC_SY879_.jpg"
+            link="https://www.imdb.com/title/tt12343534/"
           />
           <Favorite
             name="Chainsaw Man"
@@ -215,7 +231,7 @@ function About() {
           />
           <Favorite
             name="Stranger Things"
-            description={"Can't think of a quote lol"}
+            description={'"I didn\'t run away this time right?" 💔'}
             img="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQEPoq9abrTDIZOYRup-2DDHa_qGT1oqr0e1s3Ls3SjXbrlYDc1Nm6pPtx3GN23_UXkbZ9sHw"
             link="https://www.imdb.com/title/tt4574334/"
           />

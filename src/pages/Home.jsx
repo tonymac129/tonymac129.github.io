@@ -18,6 +18,7 @@ import {
   mongodb,
   node,
   express,
+  typescript,
 } from "../assets/assets";
 import "./Home.css";
 import Btn from "../components/Btn";
@@ -49,7 +50,7 @@ function Home() {
           <div className="home-content">
             <h1 className="home-title">{titles[Math.floor(Math.random() * titles.length)]}</h1>
             <p className="section-description">
-              I am Tony Macaroni, a 15 year old React front-end developer based in northern Virginia, USA. I'm a high school
+              I am Tony Macaroni, a 15 year old full-stack web developer based in northern Virginia, USA. I'm a high school
               freshman studying STEM and computer science at{" "}
               <a href="https://tjhsst.fcps.edu/" target="_blank">
                 TJHSST
@@ -62,7 +63,7 @@ function Home() {
               <a href="https://hackclub.com" target="_blank">
                 Hack Club
               </a>
-              , an amazing community of teenage developers that hosts many events. You can find all sorts of interesting things I
+              , an amazing community of teen developers that hosts many events. You can find all sorts of interesting things I
               made here, along with my skillset, school projects, and almost everything else about me!
             </p>
             <div className="section-btns">
@@ -88,12 +89,13 @@ function Home() {
               <SectionImg src={html} title="HTML" />
               <SectionImg src={css} title="CSS" />
               <SectionImg src={js} title="JavaScript" />
+              <SectionImg src={typescript} title="TypeScript" />
               <SectionImg src={react} title="React" />
+              <SectionImg src={nextjs} title="Next.js" />
+              <SectionImg src={tailwind} title="Tailwind" />
               <SectionImg src={mongodb} title="MongoDB" />
               <SectionImg src={node} title="Node.js" />
               <SectionImg src={express} title="Express" />
-              <SectionImg src={nextjs} title="Next.js" />
-              <SectionImg src={tailwind} title="Tailwind" />
               <SectionImg src={cli} title="Command Line Interface" />
               <SectionImg src={python} title="Python" />
               <SectionImg src={java} title="Java" />
@@ -107,13 +109,17 @@ function Home() {
                 <a href="https://react.dev" target="_blank">
                   React
                 </a>{" "}
-                using HTML, CSS, and JavaScript (with the help of{" "}
+                and framework{" "}
+                <a href="https://nextjs.org" target="_blank">
+                  Next.js
+                </a>{" "}
+                using HTML, CSS, and JavaScript/TypeScript (with the help of{" "}
                 <a href="https://code.visualstudio.com/" target="_blank">
                   VS Code
                 </a>{" "}
-                and CLI) to develop front-end web apps and websites, and you can see all the projects I worked on since 2022 when
-                I started coding displayed here on my personal website. Right now, I'm learning full stack development with the
-                MERN stack as well as Next.js and Tailwind to make my products more interactive and functional.{" "}
+                and CLI) to develop full-stack web apps and websites, and you can see all the projects I worked on since 2022 when
+                I started coding displayed here on my personal website. Right now, I'm learning more about full-stack development
+                with Next.js, TypeScript, and MongoDB to make my products more interactive and functional.{" "}
                 <a href="https://mac-web.github.io" target="_blank">
                   MacWeb
                 </a>{" "}
@@ -151,7 +157,7 @@ function Home() {
             <div className="section-content">
               <h2 className="section-title">...but I'm also enjoying life</h2>
               <div className="section-description">
-                I enjoy watching anime, cartoons, franchises like Marvel, and popular sci-fi shows and movies. I'm also a{" "}
+                I enjoy watching anime, cartoons, and popular sci-fi shows and movies. I'm also a{" "}
                 <a href="https://supercell.com/en/games/brawlstars/" target="_blank">
                   Brawl Stars
                 </a>{" "}

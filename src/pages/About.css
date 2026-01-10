@@ -13,12 +13,12 @@
 }
 
 .about-img {
-  height: 200px !important;
-  width: 200px !important;
+  height: 120px !important;
+  width: 120px !important;
 }
 
 .statuses {
-  padding-block: 30px;
+  padding-bottom: 30px;
   display: flex;
   flex-direction: column;
   gap: 15px;
@@ -34,6 +34,10 @@
   text-decoration: none;
   color: var(--primary-text);
   justify-content: space-between;
+}
+
+.status {
+  align-items: center;
 }
 
 .status-content {

@@ -425,6 +425,34 @@
         "React",
         "Tailwind"
       ]
+    },
+    {
+      "id": 52,
+      "name": "Lunar Lions",
+      "description": "My middle school team made an Artemis II mission simulation with Unity for the NASA ADC.",
+      "link": "https://thelunarlions.github.io",
+      "tags": [
+        "Game",
+        "Learning",
+        "Dec 2024"
+      ],
+      "skills": [
+        "Csharp",
+        "Unity"
+      ]
+    },
+    {
+      "id": 53,
+      "name": "InfiNote",
+      "description": "Note taking app with features like rich text editing, custom topics, note management, and more.",
+      "link": "https://tonymac129.github.io/infinote/",
+      "tags": [
+        "Web App",
+        "Jul 2025"
+      ],
+      "skills": [
+        "React"
+      ]
     }
   ]
 }
