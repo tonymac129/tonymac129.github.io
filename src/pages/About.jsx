@@ -26,10 +26,17 @@ function About() {
               />
               <Status
                 action="Developing"
-                name="MacVG"
-                link="https://macvg-next.vercel.app"
-                img="https://macvg-next.vercel.app/logo.png"
-                tag="Rewriting the gaming platform MacVG in Next.js with fullstack features"
+                name="MacWeb"
+                link="https://macweb.app"
+                img="https://macweb.app/logo.png"
+                tag="Rewriting the entire full-stack platform and subapps in Next.js"
+              />
+              <Status
+                action="Developing"
+                name="Relog"
+                link="https://relog-app.vercel.app"
+                img="https://relog-app.vercel.app/logo.png"
+                tag="Simple full-stack daily activity logger to make you feel productive"
               />
               <Status
                 action="Watching"
@@ -46,6 +53,13 @@ function About() {
                 tag="Culling game premiere is straight fire might be better than Shibuya"
               />
               <Status
+                action="Watching"
+                name="Frieren"
+                img="https://m.media-amazon.com/images/M/MV5BZTI4ZGMxN2UtODlkYS00MTBjLWE1YzctYzc3NDViMGI0ZmJmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+                link="https://www.imdb.com/title/tt22248376/"
+                tag="S2 premiere with perfect worldbuilding, art, and action"
+              />
+              <Status
                 action="Reading"
                 name="Harry Potter and the Prisoner of Azkaban"
                 link="https://en.wikipedia.org/wiki/Harry_Potter_and_the_Prisoner_of_Azkaban"
@@ -59,7 +73,7 @@ function About() {
                 img="https://m.media-amazon.com/images/I/71FVVdj9w4L._AC_UF1000,1000_QL80_.jpg"
                 tag="I'm not finishing this English HW..."
               />
-              <div className="status-message">Status last udpated 1/10/26</div>
+              <div className="status-message">Status last udpated 1/24/26</div>
             </div>
           </div>
           <div className="about-content">
@@ -107,28 +121,16 @@ function About() {
         <h2 className="about-title">Things I Use</h2>
         <div className="favorite-cards use-cards">
           <Favorite
-            name="Galaxy S25"
-            description="My first ever phone! (iPhones suck)"
-            img="https://ss7.vzw.com/is/image/VerizonWireless/samsung-galaxy-s25-icyblue?$device-lg$"
-            link="https://www.verizon.com/smartphones/samsung-galaxy-s25/"
-          />
-          <Favorite
             name="HP Laptop"
             description="What I use for code, school, and fun."
             img="https://m.media-amazon.com/images/I/71oi5Pn8f0L.jpg"
             link="https://www.amazon.com/HP-Laptop-Windows-Natural-Silver/dp/B08Y5KKXFB"
           />
           <Favorite
-            name="HP Pavilion Chromebook"
-            description="$100 school laptop 🥀"
-            img="https://techtoschool.com/cdn/shop/files/1069604087-2_6639c28a-99b5-42df-a4bd-7f9b5ebb5d0a_1200x1200.jpg?v=1684778737"
-            link="https://www.google.com/chromebook/"
-          />
-          <Favorite
-            name="CMF Buds Pro 2"
-            description="Got it for free from Hack Club, absolutely amazing"
-            img="https://www.classic-phones.com/cdn/shop/files/CMF-By-Nothing-Buds-Pro-2-blk.jpg?v=1749844355&width=1028"
-            link="https://us.nothing.tech/products/cmf-buds-pro-2"
+            name="Galaxy S25"
+            description="My first ever phone! (iPhones suck)"
+            img="https://ss7.vzw.com/is/image/VerizonWireless/samsung-galaxy-s25-icyblue?$device-lg$"
+            link="https://www.verizon.com/smartphones/samsung-galaxy-s25/"
           />
           <Favorite
             name="Visual Studio Code"
@@ -137,22 +139,34 @@ function About() {
             link="https://code.visualstudio.com"
           />
           <Favorite
-            name="Discord"
-            description="IDK why I use it."
-            img="https://images-eds-ssl.xboxlive.com/image?url=4rt9.lXDC4H_93laV1_eHHFT949fUipzkiFOBH3fAiZZUCdYojwUyX2aTonS1aIwMrx6NUIsHfUHSLzjGJFxxsG72wAo9EWJR4yQWyJJaDaK1XdUso6cUMpI9hAdPUU_FNs11cY1X284vsHrnWtRw7oqRpN1m9YAg21d_aNKnIo-&format=source"
-            link="https://discord.com"
-          />
-          <Favorite
             name="Microsoft Edge"
             description="To save resources but lowkey a good browser"
             img="https://avatars.githubusercontent.com/u/11354582?s=200&v=4"
             link="https://www.microsoft.com/en-us/edge/?ep=0&form=MA1403&es=222&cs=3937985797"
           />
           <Favorite
-            name="ChatGPT"
-            description="Too lazy to Google stuff and has coding skill issues"
-            img="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/ChatGPT-Logo.svg/250px-ChatGPT-Logo.svg.png"
-            link="https://chatgpt.com"
+            name="Geeky GK65"
+            description="$28 mechanical keyboard, surprisingly good"
+            img="https://geeky.gg/cdn/shop/files/0_4000x.jpg?v=1694941797"
+            link="https://www.amazon.com/dp/B0C78L7C3N"
+          />
+          <Favorite
+            name="CMF Buds Pro 2"
+            description="Got it for free from Hack Club, absolutely amazing"
+            img="https://www.classic-phones.com/cdn/shop/files/CMF-By-Nothing-Buds-Pro-2-blk.jpg?v=1749844355&width=1028"
+            link="https://us.nothing.tech/products/cmf-buds-pro-2"
+          />
+          <Favorite
+            name="HP Pavilion Chromebook"
+            description="$100 school laptop 🥀"
+            img="https://techtoschool.com/cdn/shop/files/1069604087-2_6639c28a-99b5-42df-a4bd-7f9b5ebb5d0a_1200x1200.jpg?v=1684778737"
+            link="https://www.google.com/chromebook/"
+          />
+          <Favorite
+            name="TI-84 Calculator"
+            description="Why do I possibly need to know about t-tests 💔🫩"
+            img="https://cdn.schoolspecialty.com/618faef6-ffbd-4cf4-9a9b-b2a000be143b/1516415_JPG%20Output.jpg?width=700&height=700&fit=bounds&canvas=700,700&bg-color=ffffff"
+            link="https://www.amazon.com/Texas-Instruments-TI-84-Graphing-Calculator/dp/B00TFYYWQA/"
           />
         </div>
         <h2 className="about-title">Things I Like</h2>

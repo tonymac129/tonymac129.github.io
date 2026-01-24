@@ -9,7 +9,7 @@ This is my portfolio and personal website with my featured projects, medium-scal
 - Misc: my very small, abandoned, learning, or non-coding related projects
 - Skills: my coding, tech, and general skills listed
 - Blog: where I share about my skills, ideas, or just random stuff
-- About: general information about me things I use and like, and contact information
+- About: what I'm currently doing, general information about me, things I use/like, and contact info
 
 ## Features
 
