@@ -10,6 +10,7 @@ import react from "./icons/react.svg";
 import nextjs from "./icons/nextjs.svg";
 import typescript from "./icons/typescript.svg";
 import tailwind from "./icons/tailwind.svg";
+import astro from "./icons/astro.svg";
 import unity from "./icons/unity.svg";
 import webdesign from "./icons/design.svg";
 import typing from "./icons/typing.svg";
@@ -57,6 +58,7 @@ export {
   nextjs,
   typescript,
   tailwind,
+  astro,
   unity,
   webdesign,
   typing,

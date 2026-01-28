@@ -14,12 +14,30 @@ import {
   nextjs,
   tailwind,
   typescript,
+  astro,
 } from "../assets/assets";
 import { back, next } from "../assets/assets";
 import SectionImg from "./SectionImg";
 
 function Project({ project, setProjectID, setNext, length }) {
-  const icons = { cli, csharp, css, html, js, java, python, react, unity, mongodb, express, node, nextjs, tailwind, typescript };
+  const icons = {
+    cli,
+    csharp,
+    css,
+    html,
+    js,
+    java,
+    python,
+    react,
+    unity,
+    mongodb,
+    express,
+    node,
+    nextjs,
+    tailwind,
+    typescript,
+    astro,
+  };
 
   function handleNext() {
     setProjectID((prev) => (prev == 0 ? length - 1 : prev - 1));
@@ -36,7 +54,7 @@ function Project({ project, setProjectID, setNext, length }) {
       <h2 className="project-name">{project.name}</h2>
       <div className="project-img">
         {project.skills.map((skill) => {
-          return <SectionImg src={icons[skill.toLowerCase()]} title={skill} />;
+          return <SectionImg src={icons[skill.toLowerCase().replace(".", "")]} title={skill} />;
         })}
       </div>
       <div className="project-info">

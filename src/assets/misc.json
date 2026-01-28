@@ -657,6 +657,21 @@
         "TypeScript",
         "Tailwind"
       ]
+    },
+    {
+      "id": 77,
+      "name": "Scientific Paper",
+      "link": "/misc/Tony Hsu & Matthew Shuskey - Scientific Paper Final Project.pdf",
+      "tags": [
+        "Learning",
+        "School",
+        "Math",
+        "Jan 2026"
+      ],
+      "skills": [
+        "Statistics"
+      ],
+      "description": "Heart rate scientific paper is my first semester final group project for my freshman year's statistics math class."
     }
   ]
 }

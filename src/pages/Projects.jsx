@@ -11,6 +11,9 @@ import {
   js,
   java,
   python,
+  nextjs,
+  astro,
+  typescript,
   tailwind,
   react,
   unity,
@@ -33,7 +36,24 @@ function Projects() {
   const [display, setDisplay] = useState(projectData.projects);
   const length = projectData.projects.length;
   const project = projectData.projects[length - 1 - projectID];
-  const icons = { cli, csharp, css, html, js, java, python, react, unity, tailwind, mongodb, express, node };
+  const icons = {
+    cli,
+    csharp,
+    css,
+    html,
+    js,
+    java,
+    python,
+    nextjs,
+    astro,
+    typescript,
+    react,
+    unity,
+    tailwind,
+    mongodb,
+    express,
+    node,
+  };
 
   useEffect(() => handleSort("recent"), []);
 
@@ -41,7 +61,7 @@ function Projects() {
     if (filter === -1) {
       setDisplay(final);
     } else {
-      const categories = ["Web App", "Learning", "Design", "Game", "2025", "2024", "2023", "2022"];
+      const categories = ["Web App", "Learning", "Design", "Game", "2025", "2024", "2023", "2022", "2026"];
       if (filter < 4) {
         setDisplay(final.filter((project) => project.tags.includes(categories[filter])));
       } else {
@@ -75,6 +95,7 @@ function Projects() {
       setFilter(index);
     }
   }
+  //TODO: add github repo link to each projects json data
 
   return (
     <motion.div
@@ -121,6 +142,9 @@ function Projects() {
               <div className={`skill-filter ${filter == 3 ? "skill-selected" : ""}`} onClick={() => handleFilter(3)}>
                 Game
               </div>
+              <div className={`skill-filter ${filter == 8 ? "skill-selected" : ""}`} onClick={() => handleFilter(8)}>
+                2026
+              </div>
               <div className={`skill-filter ${filter == 4 ? "skill-selected" : ""}`} onClick={() => handleFilter(4)}>
                 2025
               </div>
@@ -133,6 +157,7 @@ function Projects() {
               <div className={`skill-filter ${filter == 7 ? "skill-selected" : ""}`} onClick={() => handleFilter(7)}>
                 2022
               </div>
+              {/* TODO: DRY derive from arrray */}
             </div>
           </>
         )}
@@ -169,7 +194,7 @@ function Projects() {
                 <h3 className="grid-project-name">{project.name}</h3>
                 <div className="grid-project-tech">
                   {project.skills.map((skill) => {
-                    return <SectionImg src={icons[skill.toLowerCase()]} title={skill} />;
+                    return <SectionImg src={icons[skill.toLowerCase().replace(".", "")]} title={skill} />;
                   })}
                 </div>
                 <div className="grid-project-tags">

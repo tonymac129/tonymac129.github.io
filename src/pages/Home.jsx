@@ -19,6 +19,7 @@ import {
   node,
   express,
   typescript,
+  astro,
 } from "../assets/assets";
 import "./Home.css";
 import Btn from "../components/Btn";
@@ -94,6 +95,7 @@ function Home() {
               <SectionImg src={nextjs} title="Next.js" />
               <SectionImg src={tailwind} title="Tailwind" />
               <SectionImg src={mongodb} title="MongoDB" />
+              <SectionImg src={astro} title="Astro" />
               <SectionImg src={node} title="Node.js" />
               <SectionImg src={express} title="Express" />
               <SectionImg src={cli} title="Command Line Interface" />

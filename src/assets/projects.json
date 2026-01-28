@@ -393,10 +393,10 @@
         "Oct 2025"
       ],
       "skills": [
-        "MongoDB",
-        "Express",
         "React",
-        "Node"
+        "Express",
+        "Node",
+        "MongoDB"
       ]
     },
     {
@@ -452,6 +452,54 @@
       ],
       "skills": [
         "React"
+      ]
+    },
+    {
+      "id": 54,
+      "name": "Sodia",
+      "description": "Basic full-stack social media app with posting, following, commenting, and liking features.",
+      "link": "https://sodia-33dm.onrender.com",
+      "tags": [
+        "Web App",
+        "Nov 2025"
+      ],
+      "skills": [
+        "React",
+        "Express",
+        "Node",
+        "MongoDB"
+      ]
+    },
+    {
+      "id": 55,
+      "name": "Relog",
+      "description": "Simple, fully responsive, and optimized full-stack daily activity tracking app with powerful activity and data management features.",
+      "link": "https://relog-app.vercel.app/",
+      "tags": [
+        "Web App",
+        "Jan 2026"
+      ],
+      "skills": [
+        "React",
+        "Next.js",
+        "TypeScript",
+        "Tailwind",
+        "MongoDB"
+      ]
+    },
+    {
+      "id": 56,
+      "name": "Etruscan Blog",
+      "description": "Simple blog site with in-depth articles analyzing the Etruscans for an ancient civilization class group project.",
+      "link": "https://etruscan-blog.vercel.app/",
+      "tags": [
+        "Web App",
+        "Feb 2026"
+      ],
+      "skills": [
+        "Astro",
+        "TypeScript",
+        "Tailwind"
       ]
     }
   ]

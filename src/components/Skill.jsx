@@ -20,6 +20,7 @@ import {
   chinese,
   diabolo,
   cubing,
+  astro,
 } from "../assets/assets";
 import InfoModal from "./InfoModal";
 import { AnimatePresence } from "framer-motion";
@@ -50,6 +51,7 @@ function Skill({ name, percent = null, date = null, description, info }) {
     node,
     mongodb,
     express,
+    astro,
   };
 
   useEffect(() => {

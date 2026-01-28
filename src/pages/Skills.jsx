@@ -40,6 +40,13 @@ const skills = [
   },
   {
     id: 3,
+    name: "Astro",
+    percent: 30,
+    description: "Static framework for content-driven websites.",
+    type: ["language", "web"],
+  },
+  {
+    id: 3,
     name: "Node",
     percent: 50,
     description: "JavaScript runtime that lets JS run on servers/backend.",
