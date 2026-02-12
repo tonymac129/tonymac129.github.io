@@ -19,10 +19,9 @@ function About() {
             <div className="statuses">
               <Status
                 action="Developing"
-                name="Subtrack"
-                link="https://app-subtrack.vercel.app"
-                img="https://app-subtrack.vercel.app/logo.png"
-                tag="Full stack subscription, account, and project management platform"
+                name="Herded"
+                link="https://herded.vercel.app"
+                tag="Do you have herd mentality? Use this would-you-rather quiz platform to find out"
               />
               <Status
                 action="Developing"
@@ -30,13 +29,6 @@ function About() {
                 link="https://macweb.app"
                 img="https://macweb.app/logo.png"
                 tag="Rewriting the entire full-stack platform and subapps in Next.js"
-              />
-              <Status
-                action="Developing"
-                name="Relog"
-                link="https://relog-app.vercel.app"
-                img="https://relog-app.vercel.app/logo.png"
-                tag="Simple full-stack daily activity logger to make you feel productive"
               />
               <Status
                 action="Watching"
@@ -73,7 +65,7 @@ function About() {
                 img="https://m.media-amazon.com/images/I/71FVVdj9w4L._AC_UF1000,1000_QL80_.jpg"
                 tag="I'm not finishing this English HW..."
               />
-              <div className="status-message">Status last udpated 1/24/26</div>
+              <div className="status-message">Status last udpated 2/11/26</div>
             </div>
           </div>
           <div className="about-content">

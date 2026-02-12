@@ -494,10 +494,25 @@
       "link": "https://etruscan-blog.vercel.app/",
       "tags": [
         "Web App",
-        "Feb 2026"
+        "Jan 2026"
       ],
       "skills": [
         "Astro",
+        "TypeScript",
+        "Tailwind"
+      ]
+    },
+    {
+      "id": 57,
+      "name": "Speadr",
+      "description": "All-in-one single page speed reading web app with tons of reading tools and customization features!",
+      "link": "https://tonymac.net/speadr",
+      "tags": [
+        "Web App",
+        "Feb 2026"
+      ],
+      "skills": [
+        "React",
         "TypeScript",
         "Tailwind"
       ]
