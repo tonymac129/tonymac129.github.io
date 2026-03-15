@@ -516,6 +516,40 @@
         "TypeScript",
         "Tailwind"
       ]
+    },
+    {
+      "id": 58,
+      "name": "Herded",
+      "description": "Fullstack would you rather quiz platform where you can create fully custom interactive would you rather quizzes!",
+      "link": "https://herded.vercel.app/",
+      "tags": [
+        "Web App",
+        "Feb 2026"
+      ],
+      "skills": [
+        "React",
+        "Next.js",
+        "TypeScript",
+        "Tailwind",
+        "MongoDB"
+      ]
+    },
+    {
+      "id": 59,
+      "name": "LinguaLift",
+      "description": "Fullstack language app with the Next.js frontend made by me and the Java Spingboot backend by 3 others for my first hackathon, HackTJ 13.0!",
+      "link": "https://hacktj-language.vercel.app/",
+      "tags": [
+        "Web App",
+        "Mar 2026"
+      ],
+      "skills": [
+        "React",
+        "Next.js",
+        "TypeScript",
+        "Tailwind",
+        "MongoDB"
+      ]
     }
   ]
 }

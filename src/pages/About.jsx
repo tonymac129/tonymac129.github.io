@@ -19,9 +19,9 @@ function About() {
             <div className="statuses">
               <Status
                 action="Developing"
-                name="Herded"
-                link="https://herded.vercel.app"
-                tag="Do you have herd mentality? Use this would-you-rather quiz platform to find out"
+                name="AniHub"
+                link="https://anihub-app.vercel.app"
+                tag="Track the anime series & movies you've watched and discuss them with other people"
               />
               <Status
                 action="Developing"
@@ -52,6 +52,13 @@ function About() {
                 tag="S2 premiere with perfect worldbuilding, art, and action"
               />
               <Status
+                action="Watching"
+                name="My Dress-Up Darling"
+                img="https://upload.wikimedia.org/wikipedia/en/thumb/2/2f/Sono_Bisque_Doll_wa_Koi_wo_Suru%2C_Volume_1.jpg/250px-Sono_Bisque_Doll_wa_Koi_wo_Suru%2C_Volume_1.jpg"
+                link="https://www.imdb.com/title/tt15765670/"
+                tag="Shh..., I'm totally not actually watching this..."
+              />
+              <Status
                 action="Reading"
                 name="Harry Potter and the Prisoner of Azkaban"
                 link="https://en.wikipedia.org/wiki/Harry_Potter_and_the_Prisoner_of_Azkaban"
@@ -60,12 +67,12 @@ function About() {
               />
               <Status
                 action="Reading"
-                name="The Iliad"
-                link="https://en.wikipedia.org/wiki/Iliad"
-                img="https://m.media-amazon.com/images/I/71FVVdj9w4L._AC_UF1000,1000_QL80_.jpg"
-                tag="I'm not finishing this English HW..."
+                name="47 Ronin"
+                link="https://www.goodreads.com/book/show/106109.The_47_Ronin_Story"
+                img="https://patricksherriff.com/wp-content/uploads/2019/01/screen-shot-2019-01-14-at-23.22.04.png"
+                tag="Interesting samurai story, English class reading assignment"
               />
-              <div className="status-message">Status last udpated 2/11/26</div>
+              <div className="status-message">Status last udpated 3/14/26</div>
             </div>
           </div>
           <div className="about-content">
