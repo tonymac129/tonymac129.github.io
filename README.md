@@ -1,6 +1,8 @@
-# [TonyMac129](https://tonymac.net)
+# [TonyMac129](https://old.tonymac.net)
 
-This is my portfolio and personal website with my featured projects, medium-scale projects, misc projects, skills, blog posts, about, contact, and other information related to me. View the site at [tonymac.net](https://tonymac.net) now!
+⚠️ This is the old archived version of my personal website, it has been superseded by [tonymac.net](https://tonymac.net) ⚠️
+
+This is my portfolio and personal website with my featured projects, medium-scale projects, misc projects, skills, blog posts, about, contact, and other information related to me. View the site at [old.tonymac.net](https://old.tonymac.net) now!
 
 ## Pages
 
